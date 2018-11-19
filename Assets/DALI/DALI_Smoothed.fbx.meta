@@ -1,0 +1,1975 @@
+fileFormatVersion: 2
+guid: fe32d4519c52b9f469f743080f0ecd65
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: All_Lights
+    100002: apple_computer
+    100004: Architecture
+    100006: backleg
+    100008: backleg1
+    100010: big_couch
+    100012: big_couch1
+    100014: big_couch2
+    100016: big_stereo
+    100018: body
+    100020: book
+    100022: book1
+    100024: book10
+    100026: book11
+    100028: book12
+    100030: book13
+    100032: book14
+    100034: book15
+    100036: book15 1
+    100038: book15 2
+    100040: book15 3
+    100042: book16
+    100044: book16 1
+    100046: book16 2
+    100048: book16 3
+    100050: book17
+    100052: book17 1
+    100054: book17 2
+    100056: book17 3
+    100058: book18
+    100060: book18 1
+    100062: book18 2
+    100064: book18 3
+    100066: book19
+    100068: book19 1
+    100070: book19 2
+    100072: book19 3
+    100074: book2
+    100076: book21
+    100078: book23
+    100080: book24
+    100082: book25
+    100084: book26
+    100086: book27
+    100088: book28
+    100090: book29
+    100092: book3
+    100094: book30
+    100096: book31
+    100098: book32
+    100100: book32 1
+    100102: book33
+    100104: book34
+    100106: book35
+    100108: book36
+    100110: book37
+    100112: book38
+    100114: book39
+    100116: book4
+    100118: book4 1
+    100120: book4 2
+    100122: book4 3
+    100124: book40
+    100126: book41
+    100128: book42
+    100130: book43
+    100132: book44
+    100134: book5
+    100136: book5 1
+    100138: book5 2
+    100140: book6
+    100142: book7
+    100144: book7 1
+    100146: book8
+    100148: book9
+    100150: ceiling1
+    100152: circle_table
+    100154: circle_table 1
+    100156: circle_table1
+    100158: circlecush
+    100160: circlecush1
+    100162: circlecush1 1
+    100164: circleseat
+    100166: circleseat1
+    100168: circletablewheels
+    100170: circletablewheels1
+    100172: circletablewheels2
+    100174: circular_switch
+    100176: clotheshookthing
+    100178: clothesthing
+    100180: computer_stand
+    100182: computertable
+    100184: couches
+    100186: creeper
+    100188: ctleg
+    100190: ctleg 1
+    100192: ctleg 2
+    100194: cube_cabinet13
+    100196: cube_cabinet15
+    100198: cube_cabinet17
+    100200: cube_cabinet18
+    100202: cube_cabinet19
+    100204: cube_cabinet20
+    100206: cube_cabinet21
+    100208: cube_cabinet22
+    100210: cube_cabinet23
+    100212: cube_cabinet24
+    100214: cube_cabinet25
+    100216: cube_cabinet26
+    100218: cube_cabinet27
+    100220: cube_cabinet28
+    100222: cube_cabinet29
+    100224: cylinder_wheel
+    100226: cylinder_wheel 1
+    100228: cylinder_wheel1
+    100230: dali_mac_mini
+    100232: //RootNode
+    100234: daliYellow
+    100236: deer
+    100238: door
+    100240: door_handle
+    100242: doorhandlehandle
+    100244: doorhandleplatform
+    100246: facemouth
+    100248: finalhightable
+    100250: floor
+    100252: frontleg
+    100254: frontleg1
+    100256: Fun_little_things
+    100258: Furniture
+    100260: glass_board
+    100262: glassboard
+    100264: go
+    100266: go_lid
+    100268: go_lid1
+    100270: goboard
+    100272: gopiece
+    100274: gopiece1
+    100276: gopiece2
+    100278: gopiece3
+    100280: gopiece4
+    100282: gopiece5
+    100284: gopieces
+    100286: high_table_computer_thing
+    100288: hightable
+    100290: hightableblackpart
+    100292: hook
+    100294: hook1
+    100296: hook2
+    100298: hook3
+    100300: hook4
+    100302: hook5
+    100304: hoopy1
+    100306: hoopy2
+    100308: ipadholder
+    100310: largeripod
+    100312: left_cube_cabinets
+    100314: leg1
+    100316: leg2
+    100318: leg3
+    100320: light_polySurface4
+    100322: light_polySurface6
+    100324: light_switch
+    100326: lights
+    100328: Lights:aiSkyDomeLight1
+    100330: Lights:cooridor_light
+    100332: Lights:cooridor_light_2
+    100334: Lights:daliblue1
+    100336: Lights:daligreen
+    100338: Lights:daliorange1
+    100340: Lights:set_of_overhead_lights
+    100342: Lights:sky
+    100344: Lights:sky1
+    100346: Lights:sky2
+    100348: Lights:sky3
+    100350: Lights:somelights
+    100352: Lights:spotLight1
+    100354: Lights:spotLight2
+    100356: Lights:spotLight3
+    100358: Lights:spotLight5
+    100360: Lights:spotLight6
+    100362: Lights:spotLight7
+    100364: Lights:sunlight
+    100366: Lights:sunlight1
+    100368: lostandfound
+    100370: lower_console_thing
+    100372: Mac_remote
+    100374: mirror
+    100376: mirror1
+    100378: mirror2
+    100380: mirrors
+    100382: mouse
+    100384: mouse 1
+    100386: Orange_Board
+    100388: otherxbox
+    100390: outside
+    100392: pasted__weird_light12
+    100394: pasted__weird_light13
+    100396: pasted__weird_light14
+    100398: pasted__weird_light15
+    100400: pasted__weird_light16
+    100402: pasted__weird_light17
+    100404: pasted__weird_light18
+    100406: pasted__weird_light19
+    100408: pasted__weird_light20
+    100410: pasted__weird_light21
+    100412: pasted__weird_light22
+    100414: pasted__weird_light23
+    100416: pasted__weird_light24
+    100418: pasted__weird_light25
+    100420: pasted__weird_light26
+    100422: pasted__weird_light27
+    100424: pasted__weird_light28
+    100426: pasted__weird_light29
+    100428: pasted__weird_light30
+    100430: pasted__weird_light31
+    100432: pasted__weird_light32
+    100434: pasted__weird_light33
+    100436: pasted__weird_light34
+    100438: pasted__weird_light35
+    100440: pasted__weird_light36
+    100442: pasted__weird_light37
+    100444: pasted__weird_light38
+    100446: pasted__weird_light39
+    100448: pasted__weird_light40
+    100450: pasted__weird_light41
+    100452: pasted__weird_light42
+    100454: pCube1
+    100456: pCube10
+    100458: pCube10 1
+    100460: pCube11
+    100462: pCube11 1
+    100464: pCube13
+    100466: pCube14
+    100468: pCube17
+    100470: pCube18
+    100472: pCube19
+    100474: pCube2
+    100476: pCube20
+    100478: pCube21
+    100480: pCube22
+    100482: pCube23
+    100484: pCube24
+    100486: pCube25
+    100488: pCube4
+    100490: pCube5
+    100492: pCube7
+    100494: pCube8
+    100496: pCube8 1
+    100498: pCube9
+    100500: pCube9 1
+    100502: pCylinder1
+    100504: pCylinder11
+    100506: pCylinder11 1
+    100508: pCylinder12
+    100510: pCylinder13
+    100512: pCylinder14
+    100514: pCylinder15
+    100516: pCylinder16
+    100518: pCylinder16 1
+    100520: pCylinder17
+    100522: pCylinder18
+    100524: pCylinder2
+    100526: pCylinder20
+    100528: pCylinder21
+    100530: pCylinder22
+    100532: pCylinder23
+    100534: pCylinder25
+    100536: pCylinder26
+    100538: pCylinder27
+    100540: pCylinder28
+    100542: pCylinder29
+    100544: pCylinder3
+    100546: pCylinder30
+    100548: pCylinder31
+    100550: pCylinder32
+    100552: pCylinder33
+    100554: pCylinder34
+    100556: pCylinder35
+    100558: pCylinder36
+    100560: pCylinder4
+    100562: pCylinder9
+    100564: pCylinder9 1
+    100566: phone
+    100568: pile_of_books1
+    100570: pillar
+    100572: polySurface4
+    100574: polySurface6
+    100576: pSphere10
+    100578: pSphere11
+    100580: pSphere7
+    100582: pSphere9
+    100584: pSphere9 1
+    100586: pTorus1
+    100588: pTorus2
+    100590: redbox
+    100592: redbox 1
+    100594: redoipad
+    100596: right_cube_cabinets
+    100598: roundseat
+    100600: roundseat1
+    100602: row_of_books1
+    100604: row_of_books2
+    100606: row_of_books3
+    100608: row_of_books4
+    100610: row_of_books5
+    100612: rubix
+    100614: rubix1
+    100616: seat1
+    100618: shelf
+    100620: shelf1
+    100622: small_stereo
+    100624: smallgreenipad
+    100626: smallipod
+    100628: sonycube
+    100630: speaker
+    100632: speaker1
+    100634: speaker2
+    100636: speakerstand
+    100638: speakerstand 1
+    100640: speakerstand 2
+    100642: speakerstand1
+    100644: speakerstand1 1
+    100646: speakerstand1 2
+    100648: sphere_seat
+    100650: sphere_seat5
+    100652: straightdivider
+    100654: switch1
+    100656: switches
+    100658: tall_stereo3
+    100660: tall_stereo3 1
+    100662: tall_stereo3 2
+    100664: transform2
+    100666: transform3
+    100668: transform4
+    100670: transform7
+    100672: transform8
+    100674: Triangle_Lights
+    100676: tumbler
+    100678: TV
+    100680: tvbox
+    100682: vent
+    100684: walls
+    100686: wavy_ceiling
+    100688: wavyhinge
+    100690: wavyhinge2
+    100692: wavyhinge3
+    100694: wavywall
+    100696: wavywall1
+    100698: wavywall2
+    100700: wavywall3
+    100702: weird_light1
+    100704: weird_light2
+    100706: wheelholdy
+    100708: wheelholdy 1
+    100710: wheelz
+    100712: wheelz1
+    100714: whiteboard1
+    100716: whitebox
+    100718: xbox_360
+    100720: yogibo
+    400000: All_Lights
+    400002: apple_computer
+    400004: Architecture
+    400006: backleg
+    400008: backleg1
+    400010: big_couch
+    400012: big_couch1
+    400014: big_couch2
+    400016: big_stereo
+    400018: body
+    400020: book
+    400022: book1
+    400024: book10
+    400026: book11
+    400028: book12
+    400030: book13
+    400032: book14
+    400034: book15
+    400036: book15 1
+    400038: book15 2
+    400040: book15 3
+    400042: book16
+    400044: book16 1
+    400046: book16 2
+    400048: book16 3
+    400050: book17
+    400052: book17 1
+    400054: book17 2
+    400056: book17 3
+    400058: book18
+    400060: book18 1
+    400062: book18 2
+    400064: book18 3
+    400066: book19
+    400068: book19 1
+    400070: book19 2
+    400072: book19 3
+    400074: book2
+    400076: book21
+    400078: book23
+    400080: book24
+    400082: book25
+    400084: book26
+    400086: book27
+    400088: book28
+    400090: book29
+    400092: book3
+    400094: book30
+    400096: book31
+    400098: book32
+    400100: book32 1
+    400102: book33
+    400104: book34
+    400106: book35
+    400108: book36
+    400110: book37
+    400112: book38
+    400114: book39
+    400116: book4
+    400118: book4 1
+    400120: book4 2
+    400122: book4 3
+    400124: book40
+    400126: book41
+    400128: book42
+    400130: book43
+    400132: book44
+    400134: book5
+    400136: book5 1
+    400138: book5 2
+    400140: book6
+    400142: book7
+    400144: book7 1
+    400146: book8
+    400148: book9
+    400150: ceiling1
+    400152: circle_table
+    400154: circle_table 1
+    400156: circle_table1
+    400158: circlecush
+    400160: circlecush1
+    400162: circlecush1 1
+    400164: circleseat
+    400166: circleseat1
+    400168: circletablewheels
+    400170: circletablewheels1
+    400172: circletablewheels2
+    400174: circular_switch
+    400176: clotheshookthing
+    400178: clothesthing
+    400180: computer_stand
+    400182: computertable
+    400184: couches
+    400186: creeper
+    400188: ctleg
+    400190: ctleg 1
+    400192: ctleg 2
+    400194: cube_cabinet13
+    400196: cube_cabinet15
+    400198: cube_cabinet17
+    400200: cube_cabinet18
+    400202: cube_cabinet19
+    400204: cube_cabinet20
+    400206: cube_cabinet21
+    400208: cube_cabinet22
+    400210: cube_cabinet23
+    400212: cube_cabinet24
+    400214: cube_cabinet25
+    400216: cube_cabinet26
+    400218: cube_cabinet27
+    400220: cube_cabinet28
+    400222: cube_cabinet29
+    400224: cylinder_wheel
+    400226: cylinder_wheel 1
+    400228: cylinder_wheel1
+    400230: dali_mac_mini
+    400232: //RootNode
+    400234: daliYellow
+    400236: deer
+    400238: door
+    400240: door_handle
+    400242: doorhandlehandle
+    400244: doorhandleplatform
+    400246: facemouth
+    400248: finalhightable
+    400250: floor
+    400252: frontleg
+    400254: frontleg1
+    400256: Fun_little_things
+    400258: Furniture
+    400260: glass_board
+    400262: glassboard
+    400264: go
+    400266: go_lid
+    400268: go_lid1
+    400270: goboard
+    400272: gopiece
+    400274: gopiece1
+    400276: gopiece2
+    400278: gopiece3
+    400280: gopiece4
+    400282: gopiece5
+    400284: gopieces
+    400286: high_table_computer_thing
+    400288: hightable
+    400290: hightableblackpart
+    400292: hook
+    400294: hook1
+    400296: hook2
+    400298: hook3
+    400300: hook4
+    400302: hook5
+    400304: hoopy1
+    400306: hoopy2
+    400308: ipadholder
+    400310: largeripod
+    400312: left_cube_cabinets
+    400314: leg1
+    400316: leg2
+    400318: leg3
+    400320: light_polySurface4
+    400322: light_polySurface6
+    400324: light_switch
+    400326: lights
+    400328: Lights:aiSkyDomeLight1
+    400330: Lights:cooridor_light
+    400332: Lights:cooridor_light_2
+    400334: Lights:daliblue1
+    400336: Lights:daligreen
+    400338: Lights:daliorange1
+    400340: Lights:set_of_overhead_lights
+    400342: Lights:sky
+    400344: Lights:sky1
+    400346: Lights:sky2
+    400348: Lights:sky3
+    400350: Lights:somelights
+    400352: Lights:spotLight1
+    400354: Lights:spotLight2
+    400356: Lights:spotLight3
+    400358: Lights:spotLight5
+    400360: Lights:spotLight6
+    400362: Lights:spotLight7
+    400364: Lights:sunlight
+    400366: Lights:sunlight1
+    400368: lostandfound
+    400370: lower_console_thing
+    400372: Mac_remote
+    400374: mirror
+    400376: mirror1
+    400378: mirror2
+    400380: mirrors
+    400382: mouse
+    400384: mouse 1
+    400386: Orange_Board
+    400388: otherxbox
+    400390: outside
+    400392: pasted__weird_light12
+    400394: pasted__weird_light13
+    400396: pasted__weird_light14
+    400398: pasted__weird_light15
+    400400: pasted__weird_light16
+    400402: pasted__weird_light17
+    400404: pasted__weird_light18
+    400406: pasted__weird_light19
+    400408: pasted__weird_light20
+    400410: pasted__weird_light21
+    400412: pasted__weird_light22
+    400414: pasted__weird_light23
+    400416: pasted__weird_light24
+    400418: pasted__weird_light25
+    400420: pasted__weird_light26
+    400422: pasted__weird_light27
+    400424: pasted__weird_light28
+    400426: pasted__weird_light29
+    400428: pasted__weird_light30
+    400430: pasted__weird_light31
+    400432: pasted__weird_light32
+    400434: pasted__weird_light33
+    400436: pasted__weird_light34
+    400438: pasted__weird_light35
+    400440: pasted__weird_light36
+    400442: pasted__weird_light37
+    400444: pasted__weird_light38
+    400446: pasted__weird_light39
+    400448: pasted__weird_light40
+    400450: pasted__weird_light41
+    400452: pasted__weird_light42
+    400454: pCube1
+    400456: pCube10
+    400458: pCube10 1
+    400460: pCube11
+    400462: pCube11 1
+    400464: pCube13
+    400466: pCube14
+    400468: pCube17
+    400470: pCube18
+    400472: pCube19
+    400474: pCube2
+    400476: pCube20
+    400478: pCube21
+    400480: pCube22
+    400482: pCube23
+    400484: pCube24
+    400486: pCube25
+    400488: pCube4
+    400490: pCube5
+    400492: pCube7
+    400494: pCube8
+    400496: pCube8 1
+    400498: pCube9
+    400500: pCube9 1
+    400502: pCylinder1
+    400504: pCylinder11
+    400506: pCylinder11 1
+    400508: pCylinder12
+    400510: pCylinder13
+    400512: pCylinder14
+    400514: pCylinder15
+    400516: pCylinder16
+    400518: pCylinder16 1
+    400520: pCylinder17
+    400522: pCylinder18
+    400524: pCylinder2
+    400526: pCylinder20
+    400528: pCylinder21
+    400530: pCylinder22
+    400532: pCylinder23
+    400534: pCylinder25
+    400536: pCylinder26
+    400538: pCylinder27
+    400540: pCylinder28
+    400542: pCylinder29
+    400544: pCylinder3
+    400546: pCylinder30
+    400548: pCylinder31
+    400550: pCylinder32
+    400552: pCylinder33
+    400554: pCylinder34
+    400556: pCylinder35
+    400558: pCylinder36
+    400560: pCylinder4
+    400562: pCylinder9
+    400564: pCylinder9 1
+    400566: phone
+    400568: pile_of_books1
+    400570: pillar
+    400572: polySurface4
+    400574: polySurface6
+    400576: pSphere10
+    400578: pSphere11
+    400580: pSphere7
+    400582: pSphere9
+    400584: pSphere9 1
+    400586: pTorus1
+    400588: pTorus2
+    400590: redbox
+    400592: redbox 1
+    400594: redoipad
+    400596: right_cube_cabinets
+    400598: roundseat
+    400600: roundseat1
+    400602: row_of_books1
+    400604: row_of_books2
+    400606: row_of_books3
+    400608: row_of_books4
+    400610: row_of_books5
+    400612: rubix
+    400614: rubix1
+    400616: seat1
+    400618: shelf
+    400620: shelf1
+    400622: small_stereo
+    400624: smallgreenipad
+    400626: smallipod
+    400628: sonycube
+    400630: speaker
+    400632: speaker1
+    400634: speaker2
+    400636: speakerstand
+    400638: speakerstand 1
+    400640: speakerstand 2
+    400642: speakerstand1
+    400644: speakerstand1 1
+    400646: speakerstand1 2
+    400648: sphere_seat
+    400650: sphere_seat5
+    400652: straightdivider
+    400654: switch1
+    400656: switches
+    400658: tall_stereo3
+    400660: tall_stereo3 1
+    400662: tall_stereo3 2
+    400664: transform2
+    400666: transform3
+    400668: transform4
+    400670: transform7
+    400672: transform8
+    400674: Triangle_Lights
+    400676: tumbler
+    400678: TV
+    400680: tvbox
+    400682: vent
+    400684: walls
+    400686: wavy_ceiling
+    400688: wavyhinge
+    400690: wavyhinge2
+    400692: wavyhinge3
+    400694: wavywall
+    400696: wavywall1
+    400698: wavywall2
+    400700: wavywall3
+    400702: weird_light1
+    400704: weird_light2
+    400706: wheelholdy
+    400708: wheelholdy 1
+    400710: wheelz
+    400712: wheelz1
+    400714: whiteboard1
+    400716: whitebox
+    400718: xbox_360
+    400720: yogibo
+    2100000: Mountains
+    2100002: BlackBoxes
+    2100004: YellowLights
+    2100006: RedBook
+    2100008: GreenBook
+    2100010: OrangeLights
+    2100012: GrayBook
+    2100014: BlueLight
+    2100016: Wood
+    2100018: CreeperFace
+    2100020: CreeperBod
+    2100022: Cork
+    2100024: WhiteBlinn
+    2100026: Chrome_y
+    2100028: TVBod
+    2100030: TVScreen
+    2100032: BlackWheelMiddle
+    2100034: TrackPad
+    2100036: PhoneCase
+    2100038: GlowyBlue
+    2100040: NavyBook
+    2100042: PurpleBook
+    2100044: OrangeBook
+    2100046: BlueBook
+    2100048: LeatherBook
+    2100050: GreeniPad
+    2100052: PinkiPad
+    2100054: MetalHolder
+    2100056: GreenDeer
+    2100058: GreenLights
+    2100060: TVStandThing
+    2100062: Wall
+    2100064: Default_Material
+    2100066: Carpet
+    2100068: lambert1
+    2100070: FrostedGlass
+    2100072: WheelOutside
+    2100074: Metal
+    2100076: BlueCouch
+    2100078: limeGreen
+    2100080: Yogibo
+    2100082: MonsterSide
+    2100084: MonsterTop
+    2100086: MonsterFace
+    2100088: OrangeBoard
+    2100090: DoorHandle
+    2300000: apple_computer
+    2300002: backleg
+    2300004: backleg1
+    2300006: big_couch
+    2300008: big_couch1
+    2300010: big_couch2
+    2300012: big_stereo
+    2300014: body
+    2300016: book
+    2300018: book1
+    2300020: book10
+    2300022: book11
+    2300024: book12
+    2300026: book13
+    2300028: book14
+    2300030: book15
+    2300032: book15 1
+    2300034: book15 2
+    2300036: book15 3
+    2300038: book16
+    2300040: book16 1
+    2300042: book16 2
+    2300044: book16 3
+    2300046: book17
+    2300048: book17 1
+    2300050: book17 2
+    2300052: book17 3
+    2300054: book18
+    2300056: book18 1
+    2300058: book18 2
+    2300060: book18 3
+    2300062: book19
+    2300064: book19 1
+    2300066: book19 2
+    2300068: book19 3
+    2300070: book2
+    2300072: book21
+    2300074: book23
+    2300076: book24
+    2300078: book25
+    2300080: book26
+    2300082: book27
+    2300084: book28
+    2300086: book29
+    2300088: book3
+    2300090: book30
+    2300092: book31
+    2300094: book32
+    2300096: book32 1
+    2300098: book33
+    2300100: book34
+    2300102: book35
+    2300104: book36
+    2300106: book37
+    2300108: book38
+    2300110: book39
+    2300112: book4
+    2300114: book4 1
+    2300116: book4 2
+    2300118: book4 3
+    2300120: book40
+    2300122: book41
+    2300124: book42
+    2300126: book43
+    2300128: book44
+    2300130: book5
+    2300132: book5 1
+    2300134: book5 2
+    2300136: book6
+    2300138: book7
+    2300140: book7 1
+    2300142: book8
+    2300144: book9
+    2300146: ceiling1
+    2300148: circle_table 1
+    2300150: circle_table1
+    2300152: circular_switch
+    2300154: clothesthing
+    2300156: computertable
+    2300158: ctleg
+    2300160: ctleg 1
+    2300162: ctleg 2
+    2300164: cube_cabinet13
+    2300166: cube_cabinet15
+    2300168: cube_cabinet17
+    2300170: cube_cabinet18
+    2300172: cube_cabinet19
+    2300174: cube_cabinet20
+    2300176: cube_cabinet21
+    2300178: cube_cabinet22
+    2300180: cube_cabinet23
+    2300182: cube_cabinet24
+    2300184: cube_cabinet25
+    2300186: cube_cabinet26
+    2300188: cube_cabinet27
+    2300190: cube_cabinet28
+    2300192: cube_cabinet29
+    2300194: cylinder_wheel
+    2300196: cylinder_wheel 1
+    2300198: cylinder_wheel1
+    2300200: dali_mac_mini
+    2300202: door
+    2300204: doorhandlehandle
+    2300206: doorhandleplatform
+    2300208: facemouth
+    2300210: floor
+    2300212: frontleg
+    2300214: frontleg1
+    2300216: glassboard
+    2300218: go_lid
+    2300220: go_lid1
+    2300222: goboard
+    2300224: gopiece
+    2300226: gopiece1
+    2300228: gopiece2
+    2300230: gopiece3
+    2300232: gopiece4
+    2300234: gopiece5
+    2300236: high_table_computer_thing
+    2300238: hightable
+    2300240: hightableblackpart
+    2300242: hook
+    2300244: hook1
+    2300246: hook2
+    2300248: hook3
+    2300250: hook4
+    2300252: hook5
+    2300254: ipadholder
+    2300256: largeripod
+    2300258: leg1
+    2300260: leg2
+    2300262: leg3
+    2300264: light_switch
+    2300266: lostandfound
+    2300268: mirror
+    2300270: mirror1
+    2300272: mirror2
+    2300274: mouse 1
+    2300276: otherxbox
+    2300278: outside
+    2300280: pasted__weird_light12
+    2300282: pasted__weird_light13
+    2300284: pasted__weird_light14
+    2300286: pasted__weird_light15
+    2300288: pasted__weird_light16
+    2300290: pasted__weird_light17
+    2300292: pasted__weird_light18
+    2300294: pasted__weird_light19
+    2300296: pasted__weird_light20
+    2300298: pasted__weird_light21
+    2300300: pasted__weird_light22
+    2300302: pasted__weird_light23
+    2300304: pasted__weird_light24
+    2300306: pasted__weird_light25
+    2300308: pasted__weird_light26
+    2300310: pasted__weird_light27
+    2300312: pasted__weird_light28
+    2300314: pasted__weird_light29
+    2300316: pasted__weird_light30
+    2300318: pasted__weird_light31
+    2300320: pasted__weird_light32
+    2300322: pasted__weird_light33
+    2300324: pasted__weird_light34
+    2300326: pasted__weird_light35
+    2300328: pasted__weird_light36
+    2300330: pasted__weird_light37
+    2300332: pasted__weird_light38
+    2300334: pasted__weird_light39
+    2300336: pasted__weird_light40
+    2300338: pasted__weird_light41
+    2300340: pasted__weird_light42
+    2300342: pCube1
+    2300344: pCube10
+    2300346: pCube10 1
+    2300348: pCube11
+    2300350: pCube11 1
+    2300352: pCube13
+    2300354: pCube14
+    2300356: pCube17
+    2300358: pCube18
+    2300360: pCube19
+    2300362: pCube2
+    2300364: pCube20
+    2300366: pCube21
+    2300368: pCube22
+    2300370: pCube23
+    2300372: pCube24
+    2300374: pCube25
+    2300376: pCube4
+    2300378: pCube5
+    2300380: pCube7
+    2300382: pCube8
+    2300384: pCube8 1
+    2300386: pCube9
+    2300388: pCube9 1
+    2300390: pCylinder1
+    2300392: pCylinder11
+    2300394: pCylinder11 1
+    2300396: pCylinder12
+    2300398: pCylinder13
+    2300400: pCylinder14
+    2300402: pCylinder15
+    2300404: pCylinder16
+    2300406: pCylinder16 1
+    2300408: pCylinder17
+    2300410: pCylinder18
+    2300412: pCylinder2
+    2300414: pCylinder20
+    2300416: pCylinder21
+    2300418: pCylinder22
+    2300420: pCylinder23
+    2300422: pCylinder25
+    2300424: pCylinder26
+    2300426: pCylinder27
+    2300428: pCylinder28
+    2300430: pCylinder29
+    2300432: pCylinder30
+    2300434: pCylinder31
+    2300436: pCylinder32
+    2300438: pCylinder33
+    2300440: pCylinder34
+    2300442: pCylinder35
+    2300444: pCylinder36
+    2300446: pCylinder9
+    2300448: pCylinder9 1
+    2300450: phone
+    2300452: pillar
+    2300454: polySurface4
+    2300456: polySurface6
+    2300458: pSphere10
+    2300460: pSphere11
+    2300462: pSphere7
+    2300464: pSphere9
+    2300466: pSphere9 1
+    2300468: pTorus1
+    2300470: pTorus2
+    2300472: redbox 1
+    2300474: redoipad
+    2300476: rubix
+    2300478: rubix1
+    2300480: shelf
+    2300482: shelf1
+    2300484: small_stereo
+    2300486: smallgreenipad
+    2300488: smallipod
+    2300490: speakerstand
+    2300492: speakerstand 1
+    2300494: speakerstand 2
+    2300496: speakerstand1
+    2300498: speakerstand1 1
+    2300500: speakerstand1 2
+    2300502: straightdivider
+    2300504: switch1
+    2300506: tall_stereo3
+    2300508: tall_stereo3 1
+    2300510: tall_stereo3 2
+    2300512: TV
+    2300514: tvbox
+    2300516: vent
+    2300518: walls
+    2300520: wavy_ceiling
+    2300522: wavyhinge
+    2300524: wavyhinge2
+    2300526: wavyhinge3
+    2300528: wavywall
+    2300530: wavywall1
+    2300532: wavywall2
+    2300534: wavywall3
+    2300536: wheelholdy
+    2300538: wheelholdy 1
+    2300540: whiteboard1
+    2300542: xbox_360
+    2300544: yogibo
+    3300000: apple_computer
+    3300002: backleg
+    3300004: backleg1
+    3300006: big_couch
+    3300008: big_couch1
+    3300010: big_couch2
+    3300012: big_stereo
+    3300014: body
+    3300016: book
+    3300018: book1
+    3300020: book10
+    3300022: book11
+    3300024: book12
+    3300026: book13
+    3300028: book14
+    3300030: book15
+    3300032: book15 1
+    3300034: book15 2
+    3300036: book15 3
+    3300038: book16
+    3300040: book16 1
+    3300042: book16 2
+    3300044: book16 3
+    3300046: book17
+    3300048: book17 1
+    3300050: book17 2
+    3300052: book17 3
+    3300054: book18
+    3300056: book18 1
+    3300058: book18 2
+    3300060: book18 3
+    3300062: book19
+    3300064: book19 1
+    3300066: book19 2
+    3300068: book19 3
+    3300070: book2
+    3300072: book21
+    3300074: book23
+    3300076: book24
+    3300078: book25
+    3300080: book26
+    3300082: book27
+    3300084: book28
+    3300086: book29
+    3300088: book3
+    3300090: book30
+    3300092: book31
+    3300094: book32
+    3300096: book32 1
+    3300098: book33
+    3300100: book34
+    3300102: book35
+    3300104: book36
+    3300106: book37
+    3300108: book38
+    3300110: book39
+    3300112: book4
+    3300114: book4 1
+    3300116: book4 2
+    3300118: book4 3
+    3300120: book40
+    3300122: book41
+    3300124: book42
+    3300126: book43
+    3300128: book44
+    3300130: book5
+    3300132: book5 1
+    3300134: book5 2
+    3300136: book6
+    3300138: book7
+    3300140: book7 1
+    3300142: book8
+    3300144: book9
+    3300146: ceiling1
+    3300148: circle_table 1
+    3300150: circle_table1
+    3300152: circular_switch
+    3300154: clothesthing
+    3300156: computertable
+    3300158: ctleg
+    3300160: ctleg 1
+    3300162: ctleg 2
+    3300164: cube_cabinet13
+    3300166: cube_cabinet15
+    3300168: cube_cabinet17
+    3300170: cube_cabinet18
+    3300172: cube_cabinet19
+    3300174: cube_cabinet20
+    3300176: cube_cabinet21
+    3300178: cube_cabinet22
+    3300180: cube_cabinet23
+    3300182: cube_cabinet24
+    3300184: cube_cabinet25
+    3300186: cube_cabinet26
+    3300188: cube_cabinet27
+    3300190: cube_cabinet28
+    3300192: cube_cabinet29
+    3300194: cylinder_wheel
+    3300196: cylinder_wheel 1
+    3300198: cylinder_wheel1
+    3300200: dali_mac_mini
+    3300202: door
+    3300204: doorhandlehandle
+    3300206: doorhandleplatform
+    3300208: facemouth
+    3300210: floor
+    3300212: frontleg
+    3300214: frontleg1
+    3300216: glassboard
+    3300218: go_lid
+    3300220: go_lid1
+    3300222: goboard
+    3300224: gopiece
+    3300226: gopiece1
+    3300228: gopiece2
+    3300230: gopiece3
+    3300232: gopiece4
+    3300234: gopiece5
+    3300236: high_table_computer_thing
+    3300238: hightable
+    3300240: hightableblackpart
+    3300242: hook
+    3300244: hook1
+    3300246: hook2
+    3300248: hook3
+    3300250: hook4
+    3300252: hook5
+    3300254: ipadholder
+    3300256: largeripod
+    3300258: leg1
+    3300260: leg2
+    3300262: leg3
+    3300264: light_switch
+    3300266: lostandfound
+    3300268: mirror
+    3300270: mirror1
+    3300272: mirror2
+    3300274: mouse 1
+    3300276: otherxbox
+    3300278: outside
+    3300280: pasted__weird_light12
+    3300282: pasted__weird_light13
+    3300284: pasted__weird_light14
+    3300286: pasted__weird_light15
+    3300288: pasted__weird_light16
+    3300290: pasted__weird_light17
+    3300292: pasted__weird_light18
+    3300294: pasted__weird_light19
+    3300296: pasted__weird_light20
+    3300298: pasted__weird_light21
+    3300300: pasted__weird_light22
+    3300302: pasted__weird_light23
+    3300304: pasted__weird_light24
+    3300306: pasted__weird_light25
+    3300308: pasted__weird_light26
+    3300310: pasted__weird_light27
+    3300312: pasted__weird_light28
+    3300314: pasted__weird_light29
+    3300316: pasted__weird_light30
+    3300318: pasted__weird_light31
+    3300320: pasted__weird_light32
+    3300322: pasted__weird_light33
+    3300324: pasted__weird_light34
+    3300326: pasted__weird_light35
+    3300328: pasted__weird_light36
+    3300330: pasted__weird_light37
+    3300332: pasted__weird_light38
+    3300334: pasted__weird_light39
+    3300336: pasted__weird_light40
+    3300338: pasted__weird_light41
+    3300340: pasted__weird_light42
+    3300342: pCube1
+    3300344: pCube10
+    3300346: pCube10 1
+    3300348: pCube11
+    3300350: pCube11 1
+    3300352: pCube13
+    3300354: pCube14
+    3300356: pCube17
+    3300358: pCube18
+    3300360: pCube19
+    3300362: pCube2
+    3300364: pCube20
+    3300366: pCube21
+    3300368: pCube22
+    3300370: pCube23
+    3300372: pCube24
+    3300374: pCube25
+    3300376: pCube4
+    3300378: pCube5
+    3300380: pCube7
+    3300382: pCube8
+    3300384: pCube8 1
+    3300386: pCube9
+    3300388: pCube9 1
+    3300390: pCylinder1
+    3300392: pCylinder11
+    3300394: pCylinder11 1
+    3300396: pCylinder12
+    3300398: pCylinder13
+    3300400: pCylinder14
+    3300402: pCylinder15
+    3300404: pCylinder16
+    3300406: pCylinder16 1
+    3300408: pCylinder17
+    3300410: pCylinder18
+    3300412: pCylinder2
+    3300414: pCylinder20
+    3300416: pCylinder21
+    3300418: pCylinder22
+    3300420: pCylinder23
+    3300422: pCylinder25
+    3300424: pCylinder26
+    3300426: pCylinder27
+    3300428: pCylinder28
+    3300430: pCylinder29
+    3300432: pCylinder30
+    3300434: pCylinder31
+    3300436: pCylinder32
+    3300438: pCylinder33
+    3300440: pCylinder34
+    3300442: pCylinder35
+    3300444: pCylinder36
+    3300446: pCylinder9
+    3300448: pCylinder9 1
+    3300450: phone
+    3300452: pillar
+    3300454: polySurface4
+    3300456: polySurface6
+    3300458: pSphere10
+    3300460: pSphere11
+    3300462: pSphere7
+    3300464: pSphere9
+    3300466: pSphere9 1
+    3300468: pTorus1
+    3300470: pTorus2
+    3300472: redbox 1
+    3300474: redoipad
+    3300476: rubix
+    3300478: rubix1
+    3300480: shelf
+    3300482: shelf1
+    3300484: small_stereo
+    3300486: smallgreenipad
+    3300488: smallipod
+    3300490: speakerstand
+    3300492: speakerstand 1
+    3300494: speakerstand 2
+    3300496: speakerstand1
+    3300498: speakerstand1 1
+    3300500: speakerstand1 2
+    3300502: straightdivider
+    3300504: switch1
+    3300506: tall_stereo3
+    3300508: tall_stereo3 1
+    3300510: tall_stereo3 2
+    3300512: TV
+    3300514: tvbox
+    3300516: vent
+    3300518: walls
+    3300520: wavy_ceiling
+    3300522: wavyhinge
+    3300524: wavyhinge2
+    3300526: wavyhinge3
+    3300528: wavywall
+    3300530: wavywall1
+    3300532: wavywall2
+    3300534: wavywall3
+    3300536: wheelholdy
+    3300538: wheelholdy 1
+    3300540: whiteboard1
+    3300542: xbox_360
+    3300544: yogibo
+    4300000: outside
+    4300002: rubix1
+    4300004: go_lid
+    4300006: pSphere10
+    4300008: pSphere11
+    4300010: go_lid1
+    4300012: pCube19
+    4300014: pCube18
+    4300016: pCube21
+    4300018: pCube20
+    4300020: pCube17
+    4300022: pCylinder14
+    4300024: pCylinder15
+    4300026: pCylinder13
+    4300028: largeripod
+    4300030: smallipod
+    4300032: pCylinder12
+    4300034: pCube13
+    4300036: gopiece
+    4300038: gopiece1
+    4300040: gopiece2
+    4300042: gopiece3
+    4300044: gopiece4
+    4300046: gopiece5
+    4300048: apple_computer
+    4300050: otherxbox
+    4300052: xbox_360
+    4300054: dali_mac_mini
+    4300056: phone
+    4300058: pTorus2
+    4300060: mouse
+    4300062: pSphere7
+    4300064: pCube7
+    4300066: pCube5
+    4300068: pTorus1
+    4300070: pCylinder1
+    4300072: pCylinder2
+    4300074: goboard
+    4300076: book11
+    4300078: book13
+    4300080: book12
+    4300082: book10
+    4300084: book9
+    4300086: book21
+    4300088: book23
+    4300090: book24
+    4300092: book25
+    4300094: book26
+    4300096: book27
+    4300098: book28
+    4300100: book29
+    4300102: book30
+    4300104: pCube2
+    4300106: book8
+    4300108: book5
+    4300110: book4
+    4300112: book6
+    4300114: book3
+    4300116: book2
+    4300118: book1
+    4300120: book
+    4300122: book7
+    4300124: book5
+    4300126: book4
+    4300128: book7
+    4300130: book14
+    4300132: book15
+    4300134: book16
+    4300136: book17
+    4300138: book18
+    4300140: book19
+    4300142: smallgreenipad
+    4300144: redoipad
+    4300146: ipadholder
+    4300148: book5
+    4300150: book4
+    4300152: book15
+    4300154: book16
+    4300156: book17
+    4300158: book18
+    4300160: book19
+    4300162: book4
+    4300164: book15
+    4300166: book16
+    4300168: book17
+    4300170: book18
+    4300172: book19
+    4300174: book31
+    4300176: book32
+    4300178: book33
+    4300180: book34
+    4300182: book35
+    4300184: book15
+    4300186: book16
+    4300188: book17
+    4300190: book18
+    4300192: book19
+    4300194: book32
+    4300196: book36
+    4300198: book37
+    4300200: book38
+    4300202: book39
+    4300204: book40
+    4300206: book41
+    4300208: book42
+    4300210: book43
+    4300212: book44
+    4300214: tall_stereo3
+    4300216: speakerstand1
+    4300218: speakerstand
+    4300220: body
+    4300222: facemouth
+    4300224: frontleg
+    4300226: backleg
+    4300228: frontleg1
+    4300230: backleg1
+    4300232: tall_stereo3
+    4300234: speakerstand1
+    4300236: speakerstand
+    4300238: tall_stereo3
+    4300240: speakerstand1
+    4300242: speakerstand
+    4300244: rubix
+    4300246: TV
+    4300248: tvbox
+    4300250: big_stereo
+    4300252: small_stereo
+    4300254: pasted__weird_light12
+    4300256: pasted__weird_light13
+    4300258: pasted__weird_light14
+    4300260: pasted__weird_light15
+    4300262: pasted__weird_light16
+    4300264: pasted__weird_light17
+    4300266: pasted__weird_light18
+    4300268: pasted__weird_light19
+    4300270: pasted__weird_light20
+    4300272: pasted__weird_light21
+    4300274: pasted__weird_light22
+    4300276: pasted__weird_light23
+    4300278: pasted__weird_light30
+    4300280: pasted__weird_light33
+    4300282: pasted__weird_light35
+    4300284: pasted__weird_light37
+    4300286: pasted__weird_light39
+    4300288: pasted__weird_light40
+    4300290: pasted__weird_light42
+    4300292: pasted__weird_light31
+    4300294: pasted__weird_light32
+    4300296: pasted__weird_light34
+    4300298: pasted__weird_light36
+    4300300: pasted__weird_light38
+    4300302: pasted__weird_light41
+    4300304: pasted__weird_light25
+    4300306: pasted__weird_light28
+    4300308: pasted__weird_light24
+    4300310: pasted__weird_light26
+    4300312: pasted__weird_light27
+    4300314: pasted__weird_light29
+    4300316: yogibo
+    4300318: floor
+    4300320: ceiling1
+    4300322: walls
+    4300324: door
+    4300326: vent
+    4300328: straightdivider
+    4300330: wavy_ceiling
+    4300332: clothesthing
+    4300334: hook
+    4300336: hook1
+    4300338: hook2
+    4300340: hook3
+    4300342: hook4
+    4300344: hook5
+    4300346: light_switch
+    4300348: circular_switch
+    4300350: switch1
+    4300352: pillar
+    4300354: pCube25
+    4300356: glassboard
+    4300358: pCylinder17
+    4300360: pCylinder18
+    4300362: pCylinder20
+    4300364: pCylinder21
+    4300366: pCylinder23
+    4300368: pCylinder22
+    4300370: big_couch
+    4300372: pCylinder25
+    4300374: pCylinder26
+    4300376: pCylinder27
+    4300378: pCylinder28
+    4300380: big_couch1
+    4300382: big_couch2
+    4300384: pCylinder29
+    4300386: pCylinder30
+    4300388: pCylinder31
+    4300390: pCylinder32
+    4300392: pCylinder33
+    4300394: pCylinder34
+    4300396: pCylinder35
+    4300398: pCylinder36
+    4300400: hightableblackpart
+    4300402: hightable
+    4300404: pCube22
+    4300406: pCube23
+    4300408: pCube24
+    4300410: ctleg
+    4300412: cylinder_wheel
+    4300414: ctleg
+    4300416: cylinder_wheel1
+    4300418: cylinder_wheel
+    4300420: ctleg
+    4300422: wavywall3
+    4300424: wavywall2
+    4300426: wavywall1
+    4300428: pCylinder11
+    4300430: pSphere9
+    4300432: pCube9
+    4300434: pCube8
+    4300436: pCylinder11
+    4300438: pSphere9
+    4300440: pCube9
+    4300442: pCube8
+    4300444: pCube14
+    4300446: redbox
+    4300448: shelf1
+    4300450: cube_cabinet24
+    4300452: cube_cabinet25
+    4300454: cube_cabinet26
+    4300456: cube_cabinet27
+    4300458: cube_cabinet28
+    4300460: cube_cabinet29
+    4300462: wavywall
+    4300464: wavyhinge3
+    4300466: wavyhinge2
+    4300468: wavyhinge
+    4300470: polySurface6
+    4300472: polySurface4
+    4300474: shelf
+    4300476: high_table_computer_thing
+    4300478: leg3
+    4300480: leg2
+    4300482: leg1
+    4300484: computertable
+    4300486: lostandfound
+    4300488: mirror
+    4300490: mirror1
+    4300492: mirror2
+    4300494: cube_cabinet13
+    4300496: cube_cabinet15
+    4300498: cube_cabinet17
+    4300500: cube_cabinet18
+    4300502: cube_cabinet19
+    4300504: cube_cabinet20
+    4300506: cube_cabinet21
+    4300508: cube_cabinet22
+    4300510: cube_cabinet23
+    4300512: wheelholdy
+    4300514: pCylinder9
+    4300516: pCube10
+    4300518: pCube11
+    4300520: pCylinder16
+    4300522: wheelholdy
+    4300524: pCylinder9
+    4300526: pCube10
+    4300528: pCube11
+    4300530: pCylinder16
+    4300532: whiteboard1
+    4300534: circle_table
+    4300536: circle_table1
+    4300538: pCube4
+    4300540: doorhandlehandle
+    4300542: doorhandleplatform
+    4300544: pCube1
+    10800000: daliYellow
+    10800002: Lights:cooridor_light
+    10800004: Lights:cooridor_light_2
+    10800006: Lights:daliblue1
+    10800008: Lights:daligreen
+    10800010: Lights:daliorange1
+    10800012: Lights:sky
+    10800014: Lights:sky1
+    10800016: Lights:sky2
+    10800018: Lights:sky3
+    10800020: Lights:spotLight1
+    10800022: Lights:spotLight2
+    10800024: Lights:spotLight3
+    10800026: Lights:spotLight5
+    10800028: Lights:spotLight6
+    10800030: Lights:spotLight7
+    10800032: Lights:sunlight
+    10800034: Lights:sunlight1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackBoxes
+    second: {fileID: 2100000, guid: 27fdfb51c8934d04d8a54e3ddd9fe5e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackWheelMiddle
+    second: {fileID: 2100000, guid: a6bd7778cc545b74bbc221c011ebe19f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlueBook
+    second: {fileID: 2100000, guid: 9a0ae078592ac2647a2b4cad1de6a7f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlueCouch
+    second: {fileID: 2100000, guid: ee8527ab536a0e8409654c4a861d5b9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlueLight
+    second: {fileID: 2100000, guid: db3b414a302c4dd4e9187cae2c12e243, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carpet
+    second: {fileID: 2100000, guid: 1e013fecedeac4b4d9c1d6015a4e53d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chrome_y
+    second: {fileID: 2100000, guid: b121f0deffcb9994f9dc1759cc267adb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cork
+    second: {fileID: 2100000, guid: e8582ec43e7a6dc46a7d1746a25cbb3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CreeperBod
+    second: {fileID: 2100000, guid: 389820ce029569f4fa95645200cf7ff7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CreeperFace
+    second: {fileID: 2100000, guid: f4d49b66a812ad649b1c4f8b648793cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: f5f688850811fd249a9fe671cfeadf3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorHandle
+    second: {fileID: 2100000, guid: 5c3e0556b3762d8499f54f633895dc4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrostedGlass
+    second: {fileID: 2100000, guid: 49c5466c6852b3a40b936f5b1198acd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlowyBlue
+    second: {fileID: 2100000, guid: 46130094164b0f04fb03b285e4390938, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GrayBook
+    second: {fileID: 2100000, guid: 1daf2d8961818274da7a10e5ba22e643, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreenBook
+    second: {fileID: 2100000, guid: f5b57d6c5ac10eb4fb6f86d11a3eeb29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreenDeer
+    second: {fileID: 2100000, guid: 47d1b1ffba81d624eb7de4c2ae5e6289, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreenLights
+    second: {fileID: 2100000, guid: 2494923736787284d856611df1e4c179, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreeniPad
+    second: {fileID: 2100000, guid: 156dab5200caf7a498bab6b061aa4cce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeatherBook
+    second: {fileID: 2100000, guid: 190c60d96a4823a46bd3781e85af38de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 0f9dc5b9ca4841245907b5821c1455ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalHolder
+    second: {fileID: 2100000, guid: 19c04e33794e2264f80c2d167d3c4d62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MonsterFace
+    second: {fileID: 2100000, guid: f438095c23304994e9bb85633ed27f83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MonsterSide
+    second: {fileID: 2100000, guid: 70912f06511806a40bde76a23b2a0912, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MonsterTop
+    second: {fileID: 2100000, guid: c86d044a24c48754db7a2d25528b9b42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mountains
+    second: {fileID: 2100000, guid: d0ef3af884c0faa468f35a80f70c660d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NavyBook
+    second: {fileID: 2100000, guid: 259d066e6796f444f88b91a93fe1cca9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OrangeBoard
+    second: {fileID: 2100000, guid: 36e1fc1e03c9d1449aa3f0aa7db3e913, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OrangeBook
+    second: {fileID: 2100000, guid: fcac08f1c5d9a924ca1979d8c335b165, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OrangeLights
+    second: {fileID: 2100000, guid: 94ddc1209ffe6a04aa2d593e4d84bbe2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PhoneCase
+    second: {fileID: 2100000, guid: 29d9ff83202b8064abd035b79cc196ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PinkiPad
+    second: {fileID: 2100000, guid: 83d33db443537ed4cb75eada6fe9e97a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PurpleBook
+    second: {fileID: 2100000, guid: fd81f6d94464d5b47a75346156f372f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedBook
+    second: {fileID: 2100000, guid: aee3dea7d062dc44aa21febe2198d4de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TVBod
+    second: {fileID: 2100000, guid: f93af84f2411e5a498dda3e1c8c126b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TVScreen
+    second: {fileID: 2100000, guid: b88e0e72d1ab584428bdcaf362297ade, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TVStandThing
+    second: {fileID: 2100000, guid: 4cf8cfea30deb5e4c8234b7d14192d5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrackPad
+    second: {fileID: 2100000, guid: 4cd953ff773b8bc499764f4d23415917, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall
+    second: {fileID: 2100000, guid: 6018507e31864de4fa6c4762818b2ede, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WheelOutside
+    second: {fileID: 2100000, guid: 44538672f36219b42beceed44be0cfa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhiteBlinn
+    second: {fileID: 2100000, guid: 0daad1742e49fd54c96611c99c1c9586, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 4b2b2a74b6d2e40498c5069a133a5538, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YellowLights
+    second: {fileID: 2100000, guid: fd8a43634a260f64c887eb0fa845b166, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yogibo
+    second: {fileID: 2100000, guid: b47ba900b24f2cf4d908f45727c29569, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 0f8f37dd891c8e24e95fc7efda4e10a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: limeGreen
+    second: {fileID: 2100000, guid: 4f922d3f291628040814f00b8e49d4d7, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cork
+    second: {fileID: 2800000, guid: f4ddefde9a5848f48aefa1f7d4ee91ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: creeper face
+    second: {fileID: 2800000, guid: d065285a0c09bd44580e6f13e90f21c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: creeper skin
+    second: {fileID: 2800000, guid: 89604c0f027d6e54dba4aa447a887e6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dali carpet
+    second: {fileID: 2800000, guid: 7fbdc877febe23245af50c9897567190, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: leather-background
+    second: {fileID: 2800000, guid: 6ef16f1ec7cc02b4fbe2e1115fe86c55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: linen
+    second: {fileID: 2800000, guid: 353b36bd4ec955144bc70bd2fef9ca5a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: monsterface
+    second: {fileID: 2800000, guid: 11816b3a823af6f44b9b08f7a92c77e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: monsterside
+    second: {fileID: 2800000, guid: 5ff5edb264f933646b8e1ca03b4f80ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: monstertop
+    second: {fileID: 2800000, guid: 6464e612205d612498ca133a0ee5b737, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mountains
+    second: {fileID: 2800000, guid: 1ed7087989e631343a2a2b339a1f41d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2800000, guid: 561961321e0eb22478f0e8df20efc120, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
