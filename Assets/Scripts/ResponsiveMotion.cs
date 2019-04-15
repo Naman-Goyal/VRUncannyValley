@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -29,7 +29,7 @@ public class ResponsiveMotion : MonoBehaviour
     float timeLookingAtModel = 0f;
     
     // What phase we're in
-    enum Phase { Start, Walking, InFront, End };
+    enum Phase { Start, WalkingTo, InFront, ToCorner, End, None };
     Phase currPhase = Phase.Start;
 
     // Where the player is looking
@@ -58,10 +58,16 @@ public class ResponsiveMotion : MonoBehaviour
             case Phase.Start:
                 StartUpdate();
                 break;
+            case Phase.WalkingTo:
+                WalkingToUpdate();
             case Phase.InFront:
                 InFrontUpdate();
                 break;
+            case Phase.ToCorner:
+                ToCornerUpdate();
             case Phase.End:
+                EndUpdate();
+            case Phase.None:
                 break;
         }
     }
@@ -77,18 +83,25 @@ public class ResponsiveMotion : MonoBehaviour
         if (gaze == GazePosition.Centre || gaze == GazePosition.Right)
             timeLookingAtModel += timeSinceLast;
         
-        if (timeLookingAtModel >= 1f)
+        if (timeLookingAtModel >= 2f)
         {
-            Invoke("AnimStartLooking", 0f);
-            StartCoroutine(ChangeSitting(true, 2f));
+            lookingActive = true;
+            timeOfLookingChange = Time.time;
+            justChangedLooking = true;
+            
+            StartCoroutine(SitUp(2f));
 
-            Invoke("AnimGetUp", 8f);
-            StartCoroutine(WalkToPlayer(12f));
+            Invoke("AnimGetUp", 4f);
+            StartCoroutine(WalkToPlayer(8f));
 
-            currPhase = Phase.Walking;
+            currPhase = Phase.None;
         }
 
         timeSinceLast = 0f;
+    }
+
+    private void WalkingTo()
+    {
     }
 
     private void InFrontUpdate()
@@ -105,6 +118,14 @@ public class ResponsiveMotion : MonoBehaviour
             animator.SetFloat(speedHash, .2f);
             currPos = Vector3.Lerp(gameObject.transform.position, gameObject.transform.position + Vector3.back, .2f * Time.deltaTime);
         }
+    }
+
+    private void ToCornerUpdate()
+    {
+    }
+
+    private void EndUpdate()
+    {
     }
 
     private GazePosition GetGaze()
@@ -173,34 +194,28 @@ public class ResponsiveMotion : MonoBehaviour
         }
     }
 
-    private IEnumerator WalkToPlayer(float time)
+    private IEnumerator WalkTo(Transform from, Transform to, float time)
     {
-        yield return new WaitForSeconds(time);
-
         float startTime = Time.time;
         float changeInTime = 0f;
         animator.SetFloat(speedHash, .5f);
 
-        while (changeInTime < 5f)
+        while (changeInTime < time)
         {
             changeInTime = Time.time - startTime;
-            currPos = Vector3.Lerp(CharacterStart.position, CharacterInFront.position, changeInTime / 5f);
+            currPos = Vector3.Lerp(from.position, to.position, changeInTime / time);
             yield return null;
         }
 
         animator.SetFloat(speedHash, 0f);
-
-        yield return new WaitForSeconds(1f);
-        currPhase = Phase.InFront;
     }
 
-    private IEnumerator ChangeSitting(bool sitStraight, float startTime)
+    private IEnumerator SitUp(float startTime)
     {
         yield return new WaitForSeconds(startTime);
-        for (float f = sitStraight ? 0f : 1f; sitStraight ? f >= 1 : f <= 0;)
+        for (float f = 0f; f >= 1; f+= .3f * Time.deltaTime)
         {
             animator.SetFloat(sitStyleHash, f);
-            f += .3f * (sitStraight ? Time.deltaTime : -Time.deltaTime);
             yield return null;
         }
     }
@@ -208,18 +223,6 @@ public class ResponsiveMotion : MonoBehaviour
     void AnimGetUp()
     {
         animator.SetTrigger(getUpHash);
-    }
-
-    void AnimSitDown()
-    {
-        animator.SetTrigger(sitDownHash);
-    }
-
-    void AnimStartLooking()
-    {
-        lookingActive = true;
-        timeOfLookingChange = Time.time;
-        justChangedLooking = true;
     }
 
     void AnimStopLooking()
