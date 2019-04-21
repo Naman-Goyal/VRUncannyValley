@@ -32,13 +32,19 @@ public class ResponsiveMotion : MonoBehaviour
     enum Phase { Start, WalkingTo, InFront, ToCorner, End, None };
     Phase currPhase = Phase.Start;
 
+    // For in front
+    public float inFrontTime = 20f;
+
     // Where the player is looking
     enum GazePosition { Left, Centre, Right, None };
 
     public FoveInterface2 fove;
 
-    public Transform CharacterStart;
-    public Transform CharacterInFront;
+    public Transform CharStartLoc;
+    public Transform CharFrontLoc;
+    public Transform CharCornerLoc;
+    public Transform CharEndLoc;
+
 
     Vector3 currPos;
 
@@ -60,13 +66,16 @@ public class ResponsiveMotion : MonoBehaviour
                 break;
             case Phase.WalkingTo:
                 WalkingToUpdate();
+                break;
             case Phase.InFront:
                 InFrontUpdate();
                 break;
             case Phase.ToCorner:
                 ToCornerUpdate();
+                break;
             case Phase.End:
                 EndUpdate();
+                break;
             case Phase.None:
                 break;
         }
@@ -92,20 +101,28 @@ public class ResponsiveMotion : MonoBehaviour
             StartCoroutine(SitUp(2f));
 
             Invoke("AnimGetUp", 4f);
-            StartCoroutine(WalkToPlayer(8f));
+            StartCoroutine(WalkTo(CharFrontLoc.position, 6f, 5f, Phase.InFront));
 
-            currPhase = Phase.None;
+            currPhase = Phase.WalkingTo;
         }
 
         timeSinceLast = 0f;
     }
 
-    private void WalkingTo()
+    private void WalkingToUpdate()
     {
     }
 
     private void InFrontUpdate()
     {
+        inFrontTime -= Time.deltaTime;
+        if (inFrontTime <= 0)
+        {
+            currPhase = Phase.ToCorner;
+            WalkTo(CharCornerLoc.position, 2f, 4f, Phase.ToCorner);
+            WalkTo(CharEndLoc.position, 6f, 4f, Phase.End);
+        }
+
         GazePosition gaze = GetGaze();
 
         if (gaze == GazePosition.Left)
@@ -122,10 +139,12 @@ public class ResponsiveMotion : MonoBehaviour
 
     private void ToCornerUpdate()
     {
+
     }
 
     private void EndUpdate()
     {
+        //Send something to the upper  level
     }
 
     private GazePosition GetGaze()
@@ -194,8 +213,11 @@ public class ResponsiveMotion : MonoBehaviour
         }
     }
 
-    private IEnumerator WalkTo(Transform from, Transform to, float time)
+    private IEnumerator WalkTo(Vector3 endPos, float holdTime, float time, Phase endPhase)
     {
+        yield return new WaitForSeconds(holdTime);
+        Vector3 startPos = gameObject.transform.position;
+
         float startTime = Time.time;
         float changeInTime = 0f;
         animator.SetFloat(speedHash, .5f);
@@ -203,11 +225,12 @@ public class ResponsiveMotion : MonoBehaviour
         while (changeInTime < time)
         {
             changeInTime = Time.time - startTime;
-            currPos = Vector3.Lerp(from.position, to.position, changeInTime / time);
+            currPos = Vector3.Lerp(startPos, endPos, changeInTime / time);
             yield return null;
         }
 
         animator.SetFloat(speedHash, 0f);
+        currPhase = endPhase != Phase.None ? endPhase : currPhase;
     }
 
     private IEnumerator SitUp(float startTime)
