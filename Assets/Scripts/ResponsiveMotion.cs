@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -29,16 +29,22 @@ public class ResponsiveMotion : MonoBehaviour
     float timeLookingAtModel = 0f;
     
     // What phase we're in
-    enum Phase { Start, Walking, InFront, End };
+    enum Phase { Start, WalkingTo, InFront, ToCorner, End, None };
     Phase currPhase = Phase.Start;
+
+    // For in front
+    public float inFrontTime = 20f;
 
     // Where the player is looking
     enum GazePosition { Left, Centre, Right, None };
 
     public FoveInterface2 fove;
 
-    public Transform CharacterStart;
-    public Transform CharacterInFront;
+    public Transform CharStartLoc;
+    public Transform CharFrontLoc;
+    public Transform CharCornerLoc;
+    public Transform CharEndLoc;
+
 
     Vector3 currPos;
 
@@ -58,10 +64,19 @@ public class ResponsiveMotion : MonoBehaviour
             case Phase.Start:
                 StartUpdate();
                 break;
+            case Phase.WalkingTo:
+                WalkingToUpdate();
+                break;
             case Phase.InFront:
                 InFrontUpdate();
                 break;
+            case Phase.ToCorner:
+                ToCornerUpdate();
+                break;
             case Phase.End:
+                EndUpdate();
+                break;
+            case Phase.None:
                 break;
         }
     }
@@ -77,22 +92,37 @@ public class ResponsiveMotion : MonoBehaviour
         if (gaze == GazePosition.Centre || gaze == GazePosition.Right)
             timeLookingAtModel += timeSinceLast;
         
-        if (timeLookingAtModel >= 1f)
+        if (timeLookingAtModel >= 2f)
         {
-            Invoke("AnimStartLooking", 0f);
-            StartCoroutine(ChangeSitting(true, 2f));
+            lookingActive = true;
+            timeOfLookingChange = Time.time;
+            justChangedLooking = true;
+            
+            StartCoroutine(SitUp(2f));
 
-            Invoke("AnimGetUp", 8f);
-            StartCoroutine(WalkToPlayer(12f));
+            Invoke("AnimGetUp", 4f);
+            StartCoroutine(WalkTo(CharFrontLoc.position, 6f, 5f, Phase.InFront));
 
-            currPhase = Phase.Walking;
+            currPhase = Phase.WalkingTo;
         }
 
         timeSinceLast = 0f;
     }
 
+    private void WalkingToUpdate()
+    {
+    }
+
     private void InFrontUpdate()
     {
+        inFrontTime -= Time.deltaTime;
+        if (inFrontTime <= 0)
+        {
+            currPhase = Phase.ToCorner;
+            WalkTo(CharCornerLoc.position, 2f, 4f, Phase.ToCorner);
+            WalkTo(CharEndLoc.position, 6f, 4f, Phase.End);
+        }
+
         GazePosition gaze = GetGaze();
 
         if (gaze == GazePosition.Left)
@@ -105,6 +135,16 @@ public class ResponsiveMotion : MonoBehaviour
             animator.SetFloat(speedHash, .2f);
             currPos = Vector3.Lerp(gameObject.transform.position, gameObject.transform.position + Vector3.back, .2f * Time.deltaTime);
         }
+    }
+
+    private void ToCornerUpdate()
+    {
+
+    }
+
+    private void EndUpdate()
+    {
+        //Send something to the upper  level
     }
 
     private GazePosition GetGaze()
@@ -173,34 +213,32 @@ public class ResponsiveMotion : MonoBehaviour
         }
     }
 
-    private IEnumerator WalkToPlayer(float time)
+    private IEnumerator WalkTo(Vector3 endPos, float holdTime, float time, Phase endPhase)
     {
-        yield return new WaitForSeconds(time);
+        yield return new WaitForSeconds(holdTime);
+        Vector3 startPos = gameObject.transform.position;
 
         float startTime = Time.time;
         float changeInTime = 0f;
         animator.SetFloat(speedHash, .5f);
 
-        while (changeInTime < 5f)
+        while (changeInTime < time)
         {
             changeInTime = Time.time - startTime;
-            currPos = Vector3.Lerp(CharacterStart.position, CharacterInFront.position, changeInTime / 5f);
+            currPos = Vector3.Lerp(startPos, endPos, changeInTime / time);
             yield return null;
         }
 
         animator.SetFloat(speedHash, 0f);
-
-        yield return new WaitForSeconds(1f);
-        currPhase = Phase.InFront;
+        currPhase = endPhase != Phase.None ? endPhase : currPhase;
     }
 
-    private IEnumerator ChangeSitting(bool sitStraight, float startTime)
+    private IEnumerator SitUp(float startTime)
     {
         yield return new WaitForSeconds(startTime);
-        for (float f = sitStraight ? 0f : 1f; sitStraight ? f >= 1 : f <= 0;)
+        for (float f = 0f; f >= 1; f+= .3f * Time.deltaTime)
         {
             animator.SetFloat(sitStyleHash, f);
-            f += .3f * (sitStraight ? Time.deltaTime : -Time.deltaTime);
             yield return null;
         }
     }
@@ -208,18 +246,6 @@ public class ResponsiveMotion : MonoBehaviour
     void AnimGetUp()
     {
         animator.SetTrigger(getUpHash);
-    }
-
-    void AnimSitDown()
-    {
-        animator.SetTrigger(sitDownHash);
-    }
-
-    void AnimStartLooking()
-    {
-        lookingActive = true;
-        timeOfLookingChange = Time.time;
-        justChangedLooking = true;
     }
 
     void AnimStopLooking()
