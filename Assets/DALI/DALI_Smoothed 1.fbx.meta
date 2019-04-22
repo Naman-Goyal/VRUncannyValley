@@ -1,0 +1,1719 @@
+fileFormatVersion: 2
+guid: b5a34e1f8fcca4a5b83bebcab2e32125
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: DALI_Smoothed:All_Lights
+    100004: DALI_Smoothed:apple_computer
+    100006: DALI_Smoothed:Architecture
+    100008: DALI_Smoothed:backleg
+    100010: DALI_Smoothed:backleg1
+    100012: DALI_Smoothed:big_couch
+    100014: DALI_Smoothed:big_couch1
+    100016: DALI_Smoothed:big_couch2
+    100018: DALI_Smoothed:big_stereo
+    100020: DALI_Smoothed:body
+    100022: DALI_Smoothed:book
+    100024: DALI_Smoothed:book1
+    100026: DALI_Smoothed:book10
+    100028: DALI_Smoothed:book11
+    100030: DALI_Smoothed:book12
+    100032: DALI_Smoothed:book13
+    100034: DALI_Smoothed:book14
+    100036: DALI_Smoothed:book15
+    100038: DALI_Smoothed:book15 1
+    100040: DALI_Smoothed:book15 2
+    100042: DALI_Smoothed:book15 3
+    100044: DALI_Smoothed:book16
+    100046: DALI_Smoothed:book16 1
+    100048: DALI_Smoothed:book16 2
+    100050: DALI_Smoothed:book16 3
+    100052: DALI_Smoothed:book17
+    100054: DALI_Smoothed:book17 1
+    100056: DALI_Smoothed:book17 2
+    100058: DALI_Smoothed:book17 3
+    100060: DALI_Smoothed:book18
+    100062: DALI_Smoothed:book18 1
+    100064: DALI_Smoothed:book18 2
+    100066: DALI_Smoothed:book18 3
+    100068: DALI_Smoothed:book19
+    100070: DALI_Smoothed:book19 1
+    100072: DALI_Smoothed:book19 2
+    100074: DALI_Smoothed:book19 3
+    100076: DALI_Smoothed:book2
+    100078: DALI_Smoothed:book21
+    100080: DALI_Smoothed:book23
+    100082: DALI_Smoothed:book24
+    100084: DALI_Smoothed:book25
+    100086: DALI_Smoothed:book26
+    100088: DALI_Smoothed:book27
+    100090: DALI_Smoothed:book28
+    100092: DALI_Smoothed:book29
+    100094: DALI_Smoothed:book3
+    100096: DALI_Smoothed:book30
+    100098: DALI_Smoothed:book31
+    100100: DALI_Smoothed:book32
+    100102: DALI_Smoothed:book32 1
+    100104: DALI_Smoothed:book33
+    100106: DALI_Smoothed:book34
+    100108: DALI_Smoothed:book35
+    100110: DALI_Smoothed:book36
+    100112: DALI_Smoothed:book37
+    100114: DALI_Smoothed:book38
+    100116: DALI_Smoothed:book39
+    100118: DALI_Smoothed:book4
+    100120: DALI_Smoothed:book4 1
+    100122: DALI_Smoothed:book4 2
+    100124: DALI_Smoothed:book4 3
+    100126: DALI_Smoothed:book40
+    100128: DALI_Smoothed:book41
+    100130: DALI_Smoothed:book42
+    100132: DALI_Smoothed:book43
+    100134: DALI_Smoothed:book44
+    100136: DALI_Smoothed:book5
+    100138: DALI_Smoothed:book5 1
+    100140: DALI_Smoothed:book5 2
+    100142: DALI_Smoothed:book6
+    100144: DALI_Smoothed:book7
+    100146: DALI_Smoothed:book7 1
+    100148: DALI_Smoothed:book8
+    100150: DALI_Smoothed:book9
+    100152: DALI_Smoothed:ceiling1
+    100154: DALI_Smoothed:circle_table
+    100156: DALI_Smoothed:circle_table 1
+    100158: DALI_Smoothed:circle_table1
+    100160: DALI_Smoothed:circlecush
+    100162: DALI_Smoothed:circlecush1
+    100164: DALI_Smoothed:circlecush1 1
+    100166: DALI_Smoothed:circleseat
+    100168: DALI_Smoothed:circleseat1
+    100170: DALI_Smoothed:circletablewheels
+    100172: DALI_Smoothed:circletablewheels1
+    100174: DALI_Smoothed:circletablewheels2
+    100176: DALI_Smoothed:circular_switch
+    100178: DALI_Smoothed:clotheshookthing
+    100180: DALI_Smoothed:clothesthing
+    100182: DALI_Smoothed:computer_stand
+    100184: DALI_Smoothed:computertable
+    100186: DALI_Smoothed:couches
+    100188: DALI_Smoothed:creeper
+    100190: DALI_Smoothed:ctleg
+    100192: DALI_Smoothed:ctleg 1
+    100194: DALI_Smoothed:ctleg 2
+    100196: DALI_Smoothed:cube_cabinet13
+    100198: DALI_Smoothed:cube_cabinet15
+    100200: DALI_Smoothed:cube_cabinet17
+    100202: DALI_Smoothed:cube_cabinet18
+    100204: DALI_Smoothed:cube_cabinet19
+    100206: DALI_Smoothed:cube_cabinet20
+    100208: DALI_Smoothed:cube_cabinet21
+    100210: DALI_Smoothed:cube_cabinet22
+    100212: DALI_Smoothed:cube_cabinet23
+    100214: DALI_Smoothed:cube_cabinet24
+    100216: DALI_Smoothed:cube_cabinet25
+    100218: DALI_Smoothed:cube_cabinet26
+    100220: DALI_Smoothed:cube_cabinet27
+    100222: DALI_Smoothed:cube_cabinet28
+    100224: DALI_Smoothed:cube_cabinet29
+    100226: DALI_Smoothed:cylinder_wheel
+    100228: DALI_Smoothed:cylinder_wheel 1
+    100230: DALI_Smoothed:cylinder_wheel1
+    100232: DALI_Smoothed:dali_mac_mini
+    100234: DALI_Smoothed:daliYellow
+    100236: DALI_Smoothed:deer
+    100238: DALI_Smoothed:door
+    100240: DALI_Smoothed:door_handle
+    100242: DALI_Smoothed:doorhandlehandle
+    100244: DALI_Smoothed:doorhandleplatform
+    100246: DALI_Smoothed:facemouth
+    100248: DALI_Smoothed:finalhightable
+    100250: DALI_Smoothed:floor
+    100252: DALI_Smoothed:frontleg
+    100254: DALI_Smoothed:frontleg1
+    100256: DALI_Smoothed:Fun_little_things
+    100258: DALI_Smoothed:Furniture
+    100260: DALI_Smoothed:glass_board
+    100262: DALI_Smoothed:glassboard
+    100264: DALI_Smoothed:go
+    100266: DALI_Smoothed:go_lid
+    100268: DALI_Smoothed:go_lid1
+    100270: DALI_Smoothed:goboard
+    100272: DALI_Smoothed:gopiece
+    100274: DALI_Smoothed:gopiece1
+    100276: DALI_Smoothed:gopiece2
+    100278: DALI_Smoothed:gopiece3
+    100280: DALI_Smoothed:gopiece4
+    100282: DALI_Smoothed:gopiece5
+    100284: DALI_Smoothed:gopieces
+    100286: DALI_Smoothed:group
+    100288: DALI_Smoothed:group1
+    100290: DALI_Smoothed:high_table_computer_thing
+    100292: DALI_Smoothed:hightable
+    100294: DALI_Smoothed:hightableblackpart
+    100296: DALI_Smoothed:hook
+    100298: DALI_Smoothed:hook1
+    100300: DALI_Smoothed:hook2
+    100302: DALI_Smoothed:hook3
+    100304: DALI_Smoothed:hook4
+    100306: DALI_Smoothed:hook5
+    100308: DALI_Smoothed:hoopy1
+    100310: DALI_Smoothed:hoopy2
+    100312: DALI_Smoothed:ipadholder
+    100314: DALI_Smoothed:largeripod
+    100316: DALI_Smoothed:left_cube_cabinets
+    100318: DALI_Smoothed:leg1
+    100320: DALI_Smoothed:leg2
+    100322: DALI_Smoothed:leg3
+    100324: DALI_Smoothed:light_polySurface4
+    100326: DALI_Smoothed:light_polySurface6
+    100328: DALI_Smoothed:light_switch
+    100330: DALI_Smoothed:lights
+    100332: DALI_Smoothed:Lights:aiSkyDomeLight1
+    100334: DALI_Smoothed:Lights:cooridor_light
+    100336: DALI_Smoothed:Lights:cooridor_light_2
+    100338: DALI_Smoothed:Lights:daliblue1
+    100340: DALI_Smoothed:Lights:daligreen
+    100342: DALI_Smoothed:Lights:daliorange1
+    100344: DALI_Smoothed:Lights:set_of_overhead_lights
+    100346: DALI_Smoothed:Lights:sky
+    100348: DALI_Smoothed:Lights:sky1
+    100350: DALI_Smoothed:Lights:sky2
+    100352: DALI_Smoothed:Lights:sky3
+    100354: DALI_Smoothed:Lights:somelights
+    100356: DALI_Smoothed:Lights:spotLight1
+    100358: DALI_Smoothed:Lights:spotLight2
+    100360: DALI_Smoothed:Lights:spotLight3
+    100362: DALI_Smoothed:Lights:spotLight5
+    100364: DALI_Smoothed:Lights:spotLight6
+    100366: DALI_Smoothed:Lights:spotLight7
+    100368: DALI_Smoothed:Lights:sunlight
+    100370: DALI_Smoothed:Lights:sunlight1
+    100372: DALI_Smoothed:lostandfound
+    100374: DALI_Smoothed:lower_console_thing
+    100376: DALI_Smoothed:Mac_remote
+    100378: DALI_Smoothed:mirror
+    100380: DALI_Smoothed:mirror1
+    100382: DALI_Smoothed:mirror2
+    100384: DALI_Smoothed:mirrors
+    100386: DALI_Smoothed:mouse
+    100388: DALI_Smoothed:mouse 1
+    100390: DALI_Smoothed:Orange_Board
+    100392: DALI_Smoothed:otherxbox
+    100394: DALI_Smoothed:outside
+    100396: DALI_Smoothed:pasted__Architecture
+    100398: DALI_Smoothed:pasted__Architecture 1
+    100400: DALI_Smoothed:pasted__wavy_ceiling
+    100402: DALI_Smoothed:pasted__wavy_ceiling 1
+    100404: DALI_Smoothed:pasted__weird_light12
+    100406: DALI_Smoothed:pasted__weird_light13
+    100408: DALI_Smoothed:pasted__weird_light14
+    100410: DALI_Smoothed:pasted__weird_light15
+    100412: DALI_Smoothed:pasted__weird_light16
+    100414: DALI_Smoothed:pasted__weird_light17
+    100416: DALI_Smoothed:pasted__weird_light18
+    100418: DALI_Smoothed:pasted__weird_light19
+    100420: DALI_Smoothed:pasted__weird_light20
+    100422: DALI_Smoothed:pasted__weird_light21
+    100424: DALI_Smoothed:pasted__weird_light22
+    100426: DALI_Smoothed:pasted__weird_light23
+    100428: DALI_Smoothed:pasted__weird_light24
+    100430: DALI_Smoothed:pasted__weird_light25
+    100432: DALI_Smoothed:pasted__weird_light26
+    100434: DALI_Smoothed:pasted__weird_light27
+    100436: DALI_Smoothed:pasted__weird_light28
+    100438: DALI_Smoothed:pasted__weird_light29
+    100440: DALI_Smoothed:pasted__weird_light30
+    100442: DALI_Smoothed:pasted__weird_light31
+    100444: DALI_Smoothed:pasted__weird_light32
+    100446: DALI_Smoothed:pasted__weird_light33
+    100448: DALI_Smoothed:pasted__weird_light34
+    100450: DALI_Smoothed:pasted__weird_light35
+    100452: DALI_Smoothed:pasted__weird_light36
+    100454: DALI_Smoothed:pasted__weird_light37
+    100456: DALI_Smoothed:pasted__weird_light38
+    100458: DALI_Smoothed:pasted__weird_light39
+    100460: DALI_Smoothed:pasted__weird_light40
+    100462: DALI_Smoothed:pasted__weird_light41
+    100464: DALI_Smoothed:pasted__weird_light42
+    100466: DALI_Smoothed:pCube1
+    100468: DALI_Smoothed:pCube10
+    100470: DALI_Smoothed:pCube10 1
+    100472: DALI_Smoothed:pCube11
+    100474: DALI_Smoothed:pCube11 1
+    100476: DALI_Smoothed:pCube13
+    100478: DALI_Smoothed:pCube14
+    100480: DALI_Smoothed:pCube17
+    100482: DALI_Smoothed:pCube18
+    100484: DALI_Smoothed:pCube19
+    100486: DALI_Smoothed:pCube2
+    100488: DALI_Smoothed:pCube20
+    100490: DALI_Smoothed:pCube21
+    100492: DALI_Smoothed:pCube22
+    100494: DALI_Smoothed:pCube23
+    100496: DALI_Smoothed:pCube24
+    100498: DALI_Smoothed:pCube25
+    100500: DALI_Smoothed:pCube4
+    100502: DALI_Smoothed:pCube5
+    100504: DALI_Smoothed:pCube7
+    100506: DALI_Smoothed:pCube8
+    100508: DALI_Smoothed:pCube8 1
+    100510: DALI_Smoothed:pCube9
+    100512: DALI_Smoothed:pCube9 1
+    100514: DALI_Smoothed:pCylinder1
+    100516: DALI_Smoothed:pCylinder11
+    100518: DALI_Smoothed:pCylinder11 1
+    100520: DALI_Smoothed:pCylinder12
+    100522: DALI_Smoothed:pCylinder13
+    100524: DALI_Smoothed:pCylinder14
+    100526: DALI_Smoothed:pCylinder15
+    100528: DALI_Smoothed:pCylinder16
+    100530: DALI_Smoothed:pCylinder16 1
+    100532: DALI_Smoothed:pCylinder17
+    100534: DALI_Smoothed:pCylinder18
+    100536: DALI_Smoothed:pCylinder2
+    100538: DALI_Smoothed:pCylinder20
+    100540: DALI_Smoothed:pCylinder21
+    100542: DALI_Smoothed:pCylinder22
+    100544: DALI_Smoothed:pCylinder23
+    100546: DALI_Smoothed:pCylinder25
+    100548: DALI_Smoothed:pCylinder26
+    100550: DALI_Smoothed:pCylinder27
+    100552: DALI_Smoothed:pCylinder28
+    100554: DALI_Smoothed:pCylinder29
+    100556: DALI_Smoothed:pCylinder3
+    100558: DALI_Smoothed:pCylinder30
+    100560: DALI_Smoothed:pCylinder31
+    100562: DALI_Smoothed:pCylinder32
+    100564: DALI_Smoothed:pCylinder33
+    100566: DALI_Smoothed:pCylinder34
+    100568: DALI_Smoothed:pCylinder35
+    100570: DALI_Smoothed:pCylinder36
+    100572: DALI_Smoothed:pCylinder4
+    100574: DALI_Smoothed:pCylinder9
+    100576: DALI_Smoothed:pCylinder9 1
+    100578: DALI_Smoothed:phone
+    100580: DALI_Smoothed:pile_of_books1
+    100582: DALI_Smoothed:pillar
+    100584: DALI_Smoothed:polySurface4
+    100586: DALI_Smoothed:polySurface6
+    100588: DALI_Smoothed:pSphere10
+    100590: DALI_Smoothed:pSphere11
+    100592: DALI_Smoothed:pSphere7
+    100594: DALI_Smoothed:pSphere9
+    100596: DALI_Smoothed:pSphere9 1
+    100598: DALI_Smoothed:pTorus1
+    100600: DALI_Smoothed:pTorus2
+    100602: DALI_Smoothed:redbox
+    100604: DALI_Smoothed:redbox 1
+    100606: DALI_Smoothed:redoipad
+    100608: DALI_Smoothed:right_cube_cabinets
+    100610: DALI_Smoothed:roundseat
+    100612: DALI_Smoothed:roundseat1
+    100614: DALI_Smoothed:row_of_books1
+    100616: DALI_Smoothed:row_of_books2
+    100618: DALI_Smoothed:row_of_books3
+    100620: DALI_Smoothed:row_of_books4
+    100622: DALI_Smoothed:row_of_books5
+    100624: DALI_Smoothed:rubix
+    100626: DALI_Smoothed:rubix1
+    100628: DALI_Smoothed:seat1
+    100630: DALI_Smoothed:shelf
+    100632: DALI_Smoothed:shelf1
+    100634: DALI_Smoothed:small_stereo
+    100636: DALI_Smoothed:smallgreenipad
+    100638: DALI_Smoothed:smallipod
+    100640: DALI_Smoothed:sonycube
+    100642: DALI_Smoothed:speaker
+    100644: DALI_Smoothed:speaker1
+    100646: DALI_Smoothed:speaker2
+    100648: DALI_Smoothed:speakerstand
+    100650: DALI_Smoothed:speakerstand 1
+    100652: DALI_Smoothed:speakerstand 2
+    100654: DALI_Smoothed:speakerstand1
+    100656: DALI_Smoothed:speakerstand1 1
+    100658: DALI_Smoothed:speakerstand1 2
+    100660: DALI_Smoothed:sphere_seat
+    100662: DALI_Smoothed:sphere_seat5
+    100664: DALI_Smoothed:straightdivider
+    100666: DALI_Smoothed:switch1
+    100668: DALI_Smoothed:switches
+    100670: DALI_Smoothed:tall_stereo3
+    100672: DALI_Smoothed:tall_stereo3 1
+    100674: DALI_Smoothed:tall_stereo3 2
+    100676: DALI_Smoothed:transform2
+    100678: DALI_Smoothed:transform3
+    100680: DALI_Smoothed:transform4
+    100682: DALI_Smoothed:transform7
+    100684: DALI_Smoothed:transform8
+    100686: DALI_Smoothed:Triangle_Lights
+    100688: DALI_Smoothed:tumbler
+    100690: DALI_Smoothed:TV
+    100692: DALI_Smoothed:tvbox
+    100694: DALI_Smoothed:vent
+    100696: DALI_Smoothed:walls
+    100698: DALI_Smoothed:wavy_ceiling
+    100700: DALI_Smoothed:wavy_ceiling1
+    100702: DALI_Smoothed:wavyhinge
+    100704: DALI_Smoothed:wavyhinge2
+    100706: DALI_Smoothed:wavyhinge3
+    100708: DALI_Smoothed:wavywall
+    100710: DALI_Smoothed:wavywall1
+    100712: DALI_Smoothed:wavywall2
+    100714: DALI_Smoothed:wavywall3
+    100716: DALI_Smoothed:weird_light1
+    100718: DALI_Smoothed:weird_light2
+    100720: DALI_Smoothed:wheelholdy
+    100722: DALI_Smoothed:wheelholdy 1
+    100724: DALI_Smoothed:wheelz
+    100726: DALI_Smoothed:wheelz1
+    100728: DALI_Smoothed:whiteboard1
+    100730: DALI_Smoothed:whitebox
+    100732: DALI_Smoothed:xbox_360
+    100734: DALI_Smoothed:yogibo
+    400000: //RootNode
+    400002: DALI_Smoothed:All_Lights
+    400004: DALI_Smoothed:apple_computer
+    400006: DALI_Smoothed:Architecture
+    400008: DALI_Smoothed:backleg
+    400010: DALI_Smoothed:backleg1
+    400012: DALI_Smoothed:big_couch
+    400014: DALI_Smoothed:big_couch1
+    400016: DALI_Smoothed:big_couch2
+    400018: DALI_Smoothed:big_stereo
+    400020: DALI_Smoothed:body
+    400022: DALI_Smoothed:book
+    400024: DALI_Smoothed:book1
+    400026: DALI_Smoothed:book10
+    400028: DALI_Smoothed:book11
+    400030: DALI_Smoothed:book12
+    400032: DALI_Smoothed:book13
+    400034: DALI_Smoothed:book14
+    400036: DALI_Smoothed:book15
+    400038: DALI_Smoothed:book15 1
+    400040: DALI_Smoothed:book15 2
+    400042: DALI_Smoothed:book15 3
+    400044: DALI_Smoothed:book16
+    400046: DALI_Smoothed:book16 1
+    400048: DALI_Smoothed:book16 2
+    400050: DALI_Smoothed:book16 3
+    400052: DALI_Smoothed:book17
+    400054: DALI_Smoothed:book17 1
+    400056: DALI_Smoothed:book17 2
+    400058: DALI_Smoothed:book17 3
+    400060: DALI_Smoothed:book18
+    400062: DALI_Smoothed:book18 1
+    400064: DALI_Smoothed:book18 2
+    400066: DALI_Smoothed:book18 3
+    400068: DALI_Smoothed:book19
+    400070: DALI_Smoothed:book19 1
+    400072: DALI_Smoothed:book19 2
+    400074: DALI_Smoothed:book19 3
+    400076: DALI_Smoothed:book2
+    400078: DALI_Smoothed:book21
+    400080: DALI_Smoothed:book23
+    400082: DALI_Smoothed:book24
+    400084: DALI_Smoothed:book25
+    400086: DALI_Smoothed:book26
+    400088: DALI_Smoothed:book27
+    400090: DALI_Smoothed:book28
+    400092: DALI_Smoothed:book29
+    400094: DALI_Smoothed:book3
+    400096: DALI_Smoothed:book30
+    400098: DALI_Smoothed:book31
+    400100: DALI_Smoothed:book32
+    400102: DALI_Smoothed:book32 1
+    400104: DALI_Smoothed:book33
+    400106: DALI_Smoothed:book34
+    400108: DALI_Smoothed:book35
+    400110: DALI_Smoothed:book36
+    400112: DALI_Smoothed:book37
+    400114: DALI_Smoothed:book38
+    400116: DALI_Smoothed:book39
+    400118: DALI_Smoothed:book4
+    400120: DALI_Smoothed:book4 1
+    400122: DALI_Smoothed:book4 2
+    400124: DALI_Smoothed:book4 3
+    400126: DALI_Smoothed:book40
+    400128: DALI_Smoothed:book41
+    400130: DALI_Smoothed:book42
+    400132: DALI_Smoothed:book43
+    400134: DALI_Smoothed:book44
+    400136: DALI_Smoothed:book5
+    400138: DALI_Smoothed:book5 1
+    400140: DALI_Smoothed:book5 2
+    400142: DALI_Smoothed:book6
+    400144: DALI_Smoothed:book7
+    400146: DALI_Smoothed:book7 1
+    400148: DALI_Smoothed:book8
+    400150: DALI_Smoothed:book9
+    400152: DALI_Smoothed:ceiling1
+    400154: DALI_Smoothed:circle_table
+    400156: DALI_Smoothed:circle_table 1
+    400158: DALI_Smoothed:circle_table1
+    400160: DALI_Smoothed:circlecush
+    400162: DALI_Smoothed:circlecush1
+    400164: DALI_Smoothed:circlecush1 1
+    400166: DALI_Smoothed:circleseat
+    400168: DALI_Smoothed:circleseat1
+    400170: DALI_Smoothed:circletablewheels
+    400172: DALI_Smoothed:circletablewheels1
+    400174: DALI_Smoothed:circletablewheels2
+    400176: DALI_Smoothed:circular_switch
+    400178: DALI_Smoothed:clotheshookthing
+    400180: DALI_Smoothed:clothesthing
+    400182: DALI_Smoothed:computer_stand
+    400184: DALI_Smoothed:computertable
+    400186: DALI_Smoothed:couches
+    400188: DALI_Smoothed:creeper
+    400190: DALI_Smoothed:ctleg
+    400192: DALI_Smoothed:ctleg 1
+    400194: DALI_Smoothed:ctleg 2
+    400196: DALI_Smoothed:cube_cabinet13
+    400198: DALI_Smoothed:cube_cabinet15
+    400200: DALI_Smoothed:cube_cabinet17
+    400202: DALI_Smoothed:cube_cabinet18
+    400204: DALI_Smoothed:cube_cabinet19
+    400206: DALI_Smoothed:cube_cabinet20
+    400208: DALI_Smoothed:cube_cabinet21
+    400210: DALI_Smoothed:cube_cabinet22
+    400212: DALI_Smoothed:cube_cabinet23
+    400214: DALI_Smoothed:cube_cabinet24
+    400216: DALI_Smoothed:cube_cabinet25
+    400218: DALI_Smoothed:cube_cabinet26
+    400220: DALI_Smoothed:cube_cabinet27
+    400222: DALI_Smoothed:cube_cabinet28
+    400224: DALI_Smoothed:cube_cabinet29
+    400226: DALI_Smoothed:cylinder_wheel
+    400228: DALI_Smoothed:cylinder_wheel 1
+    400230: DALI_Smoothed:cylinder_wheel1
+    400232: DALI_Smoothed:dali_mac_mini
+    400234: DALI_Smoothed:daliYellow
+    400236: DALI_Smoothed:deer
+    400238: DALI_Smoothed:door
+    400240: DALI_Smoothed:door_handle
+    400242: DALI_Smoothed:doorhandlehandle
+    400244: DALI_Smoothed:doorhandleplatform
+    400246: DALI_Smoothed:facemouth
+    400248: DALI_Smoothed:finalhightable
+    400250: DALI_Smoothed:floor
+    400252: DALI_Smoothed:frontleg
+    400254: DALI_Smoothed:frontleg1
+    400256: DALI_Smoothed:Fun_little_things
+    400258: DALI_Smoothed:Furniture
+    400260: DALI_Smoothed:glass_board
+    400262: DALI_Smoothed:glassboard
+    400264: DALI_Smoothed:go
+    400266: DALI_Smoothed:go_lid
+    400268: DALI_Smoothed:go_lid1
+    400270: DALI_Smoothed:goboard
+    400272: DALI_Smoothed:gopiece
+    400274: DALI_Smoothed:gopiece1
+    400276: DALI_Smoothed:gopiece2
+    400278: DALI_Smoothed:gopiece3
+    400280: DALI_Smoothed:gopiece4
+    400282: DALI_Smoothed:gopiece5
+    400284: DALI_Smoothed:gopieces
+    400286: DALI_Smoothed:group
+    400288: DALI_Smoothed:group1
+    400290: DALI_Smoothed:high_table_computer_thing
+    400292: DALI_Smoothed:hightable
+    400294: DALI_Smoothed:hightableblackpart
+    400296: DALI_Smoothed:hook
+    400298: DALI_Smoothed:hook1
+    400300: DALI_Smoothed:hook2
+    400302: DALI_Smoothed:hook3
+    400304: DALI_Smoothed:hook4
+    400306: DALI_Smoothed:hook5
+    400308: DALI_Smoothed:hoopy1
+    400310: DALI_Smoothed:hoopy2
+    400312: DALI_Smoothed:ipadholder
+    400314: DALI_Smoothed:largeripod
+    400316: DALI_Smoothed:left_cube_cabinets
+    400318: DALI_Smoothed:leg1
+    400320: DALI_Smoothed:leg2
+    400322: DALI_Smoothed:leg3
+    400324: DALI_Smoothed:light_polySurface4
+    400326: DALI_Smoothed:light_polySurface6
+    400328: DALI_Smoothed:light_switch
+    400330: DALI_Smoothed:lights
+    400332: DALI_Smoothed:Lights:aiSkyDomeLight1
+    400334: DALI_Smoothed:Lights:cooridor_light
+    400336: DALI_Smoothed:Lights:cooridor_light_2
+    400338: DALI_Smoothed:Lights:daliblue1
+    400340: DALI_Smoothed:Lights:daligreen
+    400342: DALI_Smoothed:Lights:daliorange1
+    400344: DALI_Smoothed:Lights:set_of_overhead_lights
+    400346: DALI_Smoothed:Lights:sky
+    400348: DALI_Smoothed:Lights:sky1
+    400350: DALI_Smoothed:Lights:sky2
+    400352: DALI_Smoothed:Lights:sky3
+    400354: DALI_Smoothed:Lights:somelights
+    400356: DALI_Smoothed:Lights:spotLight1
+    400358: DALI_Smoothed:Lights:spotLight2
+    400360: DALI_Smoothed:Lights:spotLight3
+    400362: DALI_Smoothed:Lights:spotLight5
+    400364: DALI_Smoothed:Lights:spotLight6
+    400366: DALI_Smoothed:Lights:spotLight7
+    400368: DALI_Smoothed:Lights:sunlight
+    400370: DALI_Smoothed:Lights:sunlight1
+    400372: DALI_Smoothed:lostandfound
+    400374: DALI_Smoothed:lower_console_thing
+    400376: DALI_Smoothed:Mac_remote
+    400378: DALI_Smoothed:mirror
+    400380: DALI_Smoothed:mirror1
+    400382: DALI_Smoothed:mirror2
+    400384: DALI_Smoothed:mirrors
+    400386: DALI_Smoothed:mouse
+    400388: DALI_Smoothed:mouse 1
+    400390: DALI_Smoothed:Orange_Board
+    400392: DALI_Smoothed:otherxbox
+    400394: DALI_Smoothed:outside
+    400396: DALI_Smoothed:pasted__Architecture
+    400398: DALI_Smoothed:pasted__Architecture 1
+    400400: DALI_Smoothed:pasted__wavy_ceiling
+    400402: DALI_Smoothed:pasted__wavy_ceiling 1
+    400404: DALI_Smoothed:pasted__weird_light12
+    400406: DALI_Smoothed:pasted__weird_light13
+    400408: DALI_Smoothed:pasted__weird_light14
+    400410: DALI_Smoothed:pasted__weird_light15
+    400412: DALI_Smoothed:pasted__weird_light16
+    400414: DALI_Smoothed:pasted__weird_light17
+    400416: DALI_Smoothed:pasted__weird_light18
+    400418: DALI_Smoothed:pasted__weird_light19
+    400420: DALI_Smoothed:pasted__weird_light20
+    400422: DALI_Smoothed:pasted__weird_light21
+    400424: DALI_Smoothed:pasted__weird_light22
+    400426: DALI_Smoothed:pasted__weird_light23
+    400428: DALI_Smoothed:pasted__weird_light24
+    400430: DALI_Smoothed:pasted__weird_light25
+    400432: DALI_Smoothed:pasted__weird_light26
+    400434: DALI_Smoothed:pasted__weird_light27
+    400436: DALI_Smoothed:pasted__weird_light28
+    400438: DALI_Smoothed:pasted__weird_light29
+    400440: DALI_Smoothed:pasted__weird_light30
+    400442: DALI_Smoothed:pasted__weird_light31
+    400444: DALI_Smoothed:pasted__weird_light32
+    400446: DALI_Smoothed:pasted__weird_light33
+    400448: DALI_Smoothed:pasted__weird_light34
+    400450: DALI_Smoothed:pasted__weird_light35
+    400452: DALI_Smoothed:pasted__weird_light36
+    400454: DALI_Smoothed:pasted__weird_light37
+    400456: DALI_Smoothed:pasted__weird_light38
+    400458: DALI_Smoothed:pasted__weird_light39
+    400460: DALI_Smoothed:pasted__weird_light40
+    400462: DALI_Smoothed:pasted__weird_light41
+    400464: DALI_Smoothed:pasted__weird_light42
+    400466: DALI_Smoothed:pCube1
+    400468: DALI_Smoothed:pCube10
+    400470: DALI_Smoothed:pCube10 1
+    400472: DALI_Smoothed:pCube11
+    400474: DALI_Smoothed:pCube11 1
+    400476: DALI_Smoothed:pCube13
+    400478: DALI_Smoothed:pCube14
+    400480: DALI_Smoothed:pCube17
+    400482: DALI_Smoothed:pCube18
+    400484: DALI_Smoothed:pCube19
+    400486: DALI_Smoothed:pCube2
+    400488: DALI_Smoothed:pCube20
+    400490: DALI_Smoothed:pCube21
+    400492: DALI_Smoothed:pCube22
+    400494: DALI_Smoothed:pCube23
+    400496: DALI_Smoothed:pCube24
+    400498: DALI_Smoothed:pCube25
+    400500: DALI_Smoothed:pCube4
+    400502: DALI_Smoothed:pCube5
+    400504: DALI_Smoothed:pCube7
+    400506: DALI_Smoothed:pCube8
+    400508: DALI_Smoothed:pCube8 1
+    400510: DALI_Smoothed:pCube9
+    400512: DALI_Smoothed:pCube9 1
+    400514: DALI_Smoothed:pCylinder1
+    400516: DALI_Smoothed:pCylinder11
+    400518: DALI_Smoothed:pCylinder11 1
+    400520: DALI_Smoothed:pCylinder12
+    400522: DALI_Smoothed:pCylinder13
+    400524: DALI_Smoothed:pCylinder14
+    400526: DALI_Smoothed:pCylinder15
+    400528: DALI_Smoothed:pCylinder16
+    400530: DALI_Smoothed:pCylinder16 1
+    400532: DALI_Smoothed:pCylinder17
+    400534: DALI_Smoothed:pCylinder18
+    400536: DALI_Smoothed:pCylinder2
+    400538: DALI_Smoothed:pCylinder20
+    400540: DALI_Smoothed:pCylinder21
+    400542: DALI_Smoothed:pCylinder22
+    400544: DALI_Smoothed:pCylinder23
+    400546: DALI_Smoothed:pCylinder25
+    400548: DALI_Smoothed:pCylinder26
+    400550: DALI_Smoothed:pCylinder27
+    400552: DALI_Smoothed:pCylinder28
+    400554: DALI_Smoothed:pCylinder29
+    400556: DALI_Smoothed:pCylinder3
+    400558: DALI_Smoothed:pCylinder30
+    400560: DALI_Smoothed:pCylinder31
+    400562: DALI_Smoothed:pCylinder32
+    400564: DALI_Smoothed:pCylinder33
+    400566: DALI_Smoothed:pCylinder34
+    400568: DALI_Smoothed:pCylinder35
+    400570: DALI_Smoothed:pCylinder36
+    400572: DALI_Smoothed:pCylinder4
+    400574: DALI_Smoothed:pCylinder9
+    400576: DALI_Smoothed:pCylinder9 1
+    400578: DALI_Smoothed:phone
+    400580: DALI_Smoothed:pile_of_books1
+    400582: DALI_Smoothed:pillar
+    400584: DALI_Smoothed:polySurface4
+    400586: DALI_Smoothed:polySurface6
+    400588: DALI_Smoothed:pSphere10
+    400590: DALI_Smoothed:pSphere11
+    400592: DALI_Smoothed:pSphere7
+    400594: DALI_Smoothed:pSphere9
+    400596: DALI_Smoothed:pSphere9 1
+    400598: DALI_Smoothed:pTorus1
+    400600: DALI_Smoothed:pTorus2
+    400602: DALI_Smoothed:redbox
+    400604: DALI_Smoothed:redbox 1
+    400606: DALI_Smoothed:redoipad
+    400608: DALI_Smoothed:right_cube_cabinets
+    400610: DALI_Smoothed:roundseat
+    400612: DALI_Smoothed:roundseat1
+    400614: DALI_Smoothed:row_of_books1
+    400616: DALI_Smoothed:row_of_books2
+    400618: DALI_Smoothed:row_of_books3
+    400620: DALI_Smoothed:row_of_books4
+    400622: DALI_Smoothed:row_of_books5
+    400624: DALI_Smoothed:rubix
+    400626: DALI_Smoothed:rubix1
+    400628: DALI_Smoothed:seat1
+    400630: DALI_Smoothed:shelf
+    400632: DALI_Smoothed:shelf1
+    400634: DALI_Smoothed:small_stereo
+    400636: DALI_Smoothed:smallgreenipad
+    400638: DALI_Smoothed:smallipod
+    400640: DALI_Smoothed:sonycube
+    400642: DALI_Smoothed:speaker
+    400644: DALI_Smoothed:speaker1
+    400646: DALI_Smoothed:speaker2
+    400648: DALI_Smoothed:speakerstand
+    400650: DALI_Smoothed:speakerstand 1
+    400652: DALI_Smoothed:speakerstand 2
+    400654: DALI_Smoothed:speakerstand1
+    400656: DALI_Smoothed:speakerstand1 1
+    400658: DALI_Smoothed:speakerstand1 2
+    400660: DALI_Smoothed:sphere_seat
+    400662: DALI_Smoothed:sphere_seat5
+    400664: DALI_Smoothed:straightdivider
+    400666: DALI_Smoothed:switch1
+    400668: DALI_Smoothed:switches
+    400670: DALI_Smoothed:tall_stereo3
+    400672: DALI_Smoothed:tall_stereo3 1
+    400674: DALI_Smoothed:tall_stereo3 2
+    400676: DALI_Smoothed:transform2
+    400678: DALI_Smoothed:transform3
+    400680: DALI_Smoothed:transform4
+    400682: DALI_Smoothed:transform7
+    400684: DALI_Smoothed:transform8
+    400686: DALI_Smoothed:Triangle_Lights
+    400688: DALI_Smoothed:tumbler
+    400690: DALI_Smoothed:TV
+    400692: DALI_Smoothed:tvbox
+    400694: DALI_Smoothed:vent
+    400696: DALI_Smoothed:walls
+    400698: DALI_Smoothed:wavy_ceiling
+    400700: DALI_Smoothed:wavy_ceiling1
+    400702: DALI_Smoothed:wavyhinge
+    400704: DALI_Smoothed:wavyhinge2
+    400706: DALI_Smoothed:wavyhinge3
+    400708: DALI_Smoothed:wavywall
+    400710: DALI_Smoothed:wavywall1
+    400712: DALI_Smoothed:wavywall2
+    400714: DALI_Smoothed:wavywall3
+    400716: DALI_Smoothed:weird_light1
+    400718: DALI_Smoothed:weird_light2
+    400720: DALI_Smoothed:wheelholdy
+    400722: DALI_Smoothed:wheelholdy 1
+    400724: DALI_Smoothed:wheelz
+    400726: DALI_Smoothed:wheelz1
+    400728: DALI_Smoothed:whiteboard1
+    400730: DALI_Smoothed:whitebox
+    400732: DALI_Smoothed:xbox_360
+    400734: DALI_Smoothed:yogibo
+    2100000: DALI_Smoothed_Mountains
+    2100002: DALI_Smoothed_BlackBoxes
+    2100004: DALI_Smoothed_YellowLights
+    2100006: DALI_Smoothed_RedBook
+    2100008: DALI_Smoothed_GreenBook
+    2100010: DALI_Smoothed_OrangeLights
+    2100012: DALI_Smoothed_GrayBook
+    2100014: DALI_Smoothed_BlueLight
+    2100016: DALI_Smoothed_Wood
+    2100018: DALI_Smoothed_CreeperFace
+    2100020: DALI_Smoothed_CreeperBod
+    2100022: DALI_Smoothed_Cork
+    2100024: DALI_Smoothed_WhiteBlinn
+    2100026: DALI_Smoothed_Chrome_y
+    2100028: DALI_Smoothed_TVBod
+    2100030: DALI_Smoothed_TVScreen
+    2100032: DALI_Smoothed_BlackWheelMiddle
+    2100034: DALI_Smoothed_TrackPad
+    2100036: DALI_Smoothed_PhoneCase
+    2100038: DALI_Smoothed_GlowyBlue
+    2100040: DALI_Smoothed_NavyBook
+    2100042: DALI_Smoothed_PurpleBook
+    2100044: DALI_Smoothed_OrangeBook
+    2100046: DALI_Smoothed_BlueBook
+    2100048: DALI_Smoothed_LeatherBook
+    2100050: DALI_Smoothed_GreeniPad
+    2100052: DALI_Smoothed_PinkiPad
+    2100054: DALI_Smoothed_MetalHolder
+    2100056: DALI_Smoothed_GreenDeer
+    2100058: DALI_Smoothed_GreenLights
+    2100060: DALI_Smoothed_TVStandThing
+    2100062: DALI_Smoothed_Wall
+    2100064: DALI_Smoothed_Default_Material
+    2100066: DALI_Smoothed_Carpet
+    2100068: DALI_Smoothed_lambert2
+    2100070: DALI_Smoothed_FrostedGlass
+    2100072: DALI_Smoothed_WheelOutside
+    2100074: DALI_Smoothed_Metal
+    2100076: DALI_Smoothed_BlueCouch
+    2100078: DALI_Smoothed_limeGreen
+    2100080: DALI_Smoothed_Yogibo
+    2100082: DALI_Smoothed_MonsterSide
+    2100084: DALI_Smoothed_MonsterTop
+    2100086: DALI_Smoothed_MonsterFace
+    2100088: DALI_Smoothed_OrangeBoard
+    2100090: DALI_Smoothed_DoorHandle
+    2100092: DALI_Smoothed_pasted__OrangeLights
+    2100094: DALI_Smoothed_pasted__BlueLight
+    2100096: DALI_Smoothed_pasted__OrangeLights1
+    2100098: DALI_Smoothed_pasted__BlueLight1
+    2300000: DALI_Smoothed:apple_computer
+    2300002: DALI_Smoothed:backleg
+    2300004: DALI_Smoothed:backleg1
+    2300006: DALI_Smoothed:big_couch
+    2300008: DALI_Smoothed:big_couch1
+    2300010: DALI_Smoothed:big_couch2
+    2300012: DALI_Smoothed:big_stereo
+    2300014: DALI_Smoothed:body
+    2300016: DALI_Smoothed:book
+    2300018: DALI_Smoothed:book1
+    2300020: DALI_Smoothed:book10
+    2300022: DALI_Smoothed:book11
+    2300024: DALI_Smoothed:book12
+    2300026: DALI_Smoothed:book13
+    2300028: DALI_Smoothed:book14
+    2300030: DALI_Smoothed:book15
+    2300032: DALI_Smoothed:book15 1
+    2300034: DALI_Smoothed:book15 2
+    2300036: DALI_Smoothed:book15 3
+    2300038: DALI_Smoothed:book16
+    2300040: DALI_Smoothed:book16 1
+    2300042: DALI_Smoothed:book16 2
+    2300044: DALI_Smoothed:book16 3
+    2300046: DALI_Smoothed:book17
+    2300048: DALI_Smoothed:book17 1
+    2300050: DALI_Smoothed:book17 2
+    2300052: DALI_Smoothed:book17 3
+    2300054: DALI_Smoothed:book18
+    2300056: DALI_Smoothed:book18 1
+    2300058: DALI_Smoothed:book18 2
+    2300060: DALI_Smoothed:book18 3
+    2300062: DALI_Smoothed:book19
+    2300064: DALI_Smoothed:book19 1
+    2300066: DALI_Smoothed:book19 2
+    2300068: DALI_Smoothed:book19 3
+    2300070: DALI_Smoothed:book2
+    2300072: DALI_Smoothed:book21
+    2300074: DALI_Smoothed:book23
+    2300076: DALI_Smoothed:book24
+    2300078: DALI_Smoothed:book25
+    2300080: DALI_Smoothed:book26
+    2300082: DALI_Smoothed:book27
+    2300084: DALI_Smoothed:book28
+    2300086: DALI_Smoothed:book29
+    2300088: DALI_Smoothed:book3
+    2300090: DALI_Smoothed:book30
+    2300092: DALI_Smoothed:book31
+    2300094: DALI_Smoothed:book32
+    2300096: DALI_Smoothed:book32 1
+    2300098: DALI_Smoothed:book33
+    2300100: DALI_Smoothed:book34
+    2300102: DALI_Smoothed:book35
+    2300104: DALI_Smoothed:book36
+    2300106: DALI_Smoothed:book37
+    2300108: DALI_Smoothed:book38
+    2300110: DALI_Smoothed:book39
+    2300112: DALI_Smoothed:book4
+    2300114: DALI_Smoothed:book4 1
+    2300116: DALI_Smoothed:book4 2
+    2300118: DALI_Smoothed:book4 3
+    2300120: DALI_Smoothed:book40
+    2300122: DALI_Smoothed:book41
+    2300124: DALI_Smoothed:book42
+    2300126: DALI_Smoothed:book43
+    2300128: DALI_Smoothed:book44
+    2300130: DALI_Smoothed:book5
+    2300132: DALI_Smoothed:book5 1
+    2300134: DALI_Smoothed:book5 2
+    2300136: DALI_Smoothed:book6
+    2300138: DALI_Smoothed:book7
+    2300140: DALI_Smoothed:book7 1
+    2300142: DALI_Smoothed:book8
+    2300144: DALI_Smoothed:book9
+    2300146: DALI_Smoothed:ceiling1
+    2300148: DALI_Smoothed:circle_table 1
+    2300150: DALI_Smoothed:circle_table1
+    2300152: DALI_Smoothed:circular_switch
+    2300154: DALI_Smoothed:clothesthing
+    2300156: DALI_Smoothed:computertable
+    2300158: DALI_Smoothed:ctleg
+    2300160: DALI_Smoothed:ctleg 1
+    2300162: DALI_Smoothed:ctleg 2
+    2300164: DALI_Smoothed:cube_cabinet13
+    2300166: DALI_Smoothed:cube_cabinet15
+    2300168: DALI_Smoothed:cube_cabinet17
+    2300170: DALI_Smoothed:cube_cabinet18
+    2300172: DALI_Smoothed:cube_cabinet19
+    2300174: DALI_Smoothed:cube_cabinet20
+    2300176: DALI_Smoothed:cube_cabinet21
+    2300178: DALI_Smoothed:cube_cabinet22
+    2300180: DALI_Smoothed:cube_cabinet23
+    2300182: DALI_Smoothed:cube_cabinet24
+    2300184: DALI_Smoothed:cube_cabinet25
+    2300186: DALI_Smoothed:cube_cabinet26
+    2300188: DALI_Smoothed:cube_cabinet27
+    2300190: DALI_Smoothed:cube_cabinet28
+    2300192: DALI_Smoothed:cube_cabinet29
+    2300194: DALI_Smoothed:cylinder_wheel
+    2300196: DALI_Smoothed:cylinder_wheel 1
+    2300198: DALI_Smoothed:cylinder_wheel1
+    2300200: DALI_Smoothed:dali_mac_mini
+    2300202: DALI_Smoothed:door
+    2300204: DALI_Smoothed:doorhandlehandle
+    2300206: DALI_Smoothed:doorhandleplatform
+    2300208: DALI_Smoothed:facemouth
+    2300210: DALI_Smoothed:floor
+    2300212: DALI_Smoothed:frontleg
+    2300214: DALI_Smoothed:frontleg1
+    2300216: DALI_Smoothed:glassboard
+    2300218: DALI_Smoothed:go_lid
+    2300220: DALI_Smoothed:go_lid1
+    2300222: DALI_Smoothed:goboard
+    2300224: DALI_Smoothed:gopiece
+    2300226: DALI_Smoothed:gopiece1
+    2300228: DALI_Smoothed:gopiece2
+    2300230: DALI_Smoothed:gopiece3
+    2300232: DALI_Smoothed:gopiece4
+    2300234: DALI_Smoothed:gopiece5
+    2300236: DALI_Smoothed:high_table_computer_thing
+    2300238: DALI_Smoothed:hightable
+    2300240: DALI_Smoothed:hightableblackpart
+    2300242: DALI_Smoothed:hook
+    2300244: DALI_Smoothed:hook1
+    2300246: DALI_Smoothed:hook2
+    2300248: DALI_Smoothed:hook3
+    2300250: DALI_Smoothed:hook4
+    2300252: DALI_Smoothed:hook5
+    2300254: DALI_Smoothed:ipadholder
+    2300256: DALI_Smoothed:largeripod
+    2300258: DALI_Smoothed:leg1
+    2300260: DALI_Smoothed:leg2
+    2300262: DALI_Smoothed:leg3
+    2300264: DALI_Smoothed:light_switch
+    2300266: DALI_Smoothed:lostandfound
+    2300268: DALI_Smoothed:mirror
+    2300270: DALI_Smoothed:mirror1
+    2300272: DALI_Smoothed:mirror2
+    2300274: DALI_Smoothed:mouse 1
+    2300276: DALI_Smoothed:otherxbox
+    2300278: DALI_Smoothed:outside
+    2300280: DALI_Smoothed:pasted__wavy_ceiling
+    2300282: DALI_Smoothed:pasted__wavy_ceiling 1
+    2300284: DALI_Smoothed:pasted__weird_light12
+    2300286: DALI_Smoothed:pasted__weird_light13
+    2300288: DALI_Smoothed:pasted__weird_light14
+    2300290: DALI_Smoothed:pasted__weird_light15
+    2300292: DALI_Smoothed:pasted__weird_light16
+    2300294: DALI_Smoothed:pasted__weird_light17
+    2300296: DALI_Smoothed:pasted__weird_light18
+    2300298: DALI_Smoothed:pasted__weird_light19
+    2300300: DALI_Smoothed:pasted__weird_light20
+    2300302: DALI_Smoothed:pasted__weird_light21
+    2300304: DALI_Smoothed:pasted__weird_light22
+    2300306: DALI_Smoothed:pasted__weird_light23
+    2300308: DALI_Smoothed:pasted__weird_light24
+    2300310: DALI_Smoothed:pasted__weird_light25
+    2300312: DALI_Smoothed:pasted__weird_light26
+    2300314: DALI_Smoothed:pasted__weird_light27
+    2300316: DALI_Smoothed:pasted__weird_light28
+    2300318: DALI_Smoothed:pasted__weird_light29
+    2300320: DALI_Smoothed:pasted__weird_light30
+    2300322: DALI_Smoothed:pasted__weird_light31
+    2300324: DALI_Smoothed:pasted__weird_light32
+    2300326: DALI_Smoothed:pasted__weird_light33
+    2300328: DALI_Smoothed:pasted__weird_light34
+    2300330: DALI_Smoothed:pasted__weird_light35
+    2300332: DALI_Smoothed:pasted__weird_light36
+    2300334: DALI_Smoothed:pasted__weird_light37
+    2300336: DALI_Smoothed:pasted__weird_light38
+    2300338: DALI_Smoothed:pasted__weird_light39
+    2300340: DALI_Smoothed:pasted__weird_light40
+    2300342: DALI_Smoothed:pasted__weird_light41
+    2300344: DALI_Smoothed:pasted__weird_light42
+    2300346: DALI_Smoothed:pCube1
+    2300348: DALI_Smoothed:pCube10
+    2300350: DALI_Smoothed:pCube10 1
+    2300352: DALI_Smoothed:pCube11
+    2300354: DALI_Smoothed:pCube11 1
+    2300356: DALI_Smoothed:pCube13
+    2300358: DALI_Smoothed:pCube14
+    2300360: DALI_Smoothed:pCube17
+    2300362: DALI_Smoothed:pCube18
+    2300364: DALI_Smoothed:pCube19
+    2300366: DALI_Smoothed:pCube2
+    2300368: DALI_Smoothed:pCube20
+    2300370: DALI_Smoothed:pCube21
+    2300372: DALI_Smoothed:pCube22
+    2300374: DALI_Smoothed:pCube23
+    2300376: DALI_Smoothed:pCube24
+    2300378: DALI_Smoothed:pCube25
+    2300380: DALI_Smoothed:pCube4
+    2300382: DALI_Smoothed:pCube5
+    2300384: DALI_Smoothed:pCube7
+    2300386: DALI_Smoothed:pCube8
+    2300388: DALI_Smoothed:pCube8 1
+    2300390: DALI_Smoothed:pCube9
+    2300392: DALI_Smoothed:pCube9 1
+    2300394: DALI_Smoothed:pCylinder1
+    2300396: DALI_Smoothed:pCylinder11
+    2300398: DALI_Smoothed:pCylinder11 1
+    2300400: DALI_Smoothed:pCylinder12
+    2300402: DALI_Smoothed:pCylinder13
+    2300404: DALI_Smoothed:pCylinder14
+    2300406: DALI_Smoothed:pCylinder15
+    2300408: DALI_Smoothed:pCylinder16
+    2300410: DALI_Smoothed:pCylinder16 1
+    2300412: DALI_Smoothed:pCylinder17
+    2300414: DALI_Smoothed:pCylinder18
+    2300416: DALI_Smoothed:pCylinder2
+    2300418: DALI_Smoothed:pCylinder20
+    2300420: DALI_Smoothed:pCylinder21
+    2300422: DALI_Smoothed:pCylinder22
+    2300424: DALI_Smoothed:pCylinder23
+    2300426: DALI_Smoothed:pCylinder25
+    2300428: DALI_Smoothed:pCylinder26
+    2300430: DALI_Smoothed:pCylinder27
+    2300432: DALI_Smoothed:pCylinder28
+    2300434: DALI_Smoothed:pCylinder29
+    2300436: DALI_Smoothed:pCylinder30
+    2300438: DALI_Smoothed:pCylinder31
+    2300440: DALI_Smoothed:pCylinder32
+    2300442: DALI_Smoothed:pCylinder33
+    2300444: DALI_Smoothed:pCylinder34
+    2300446: DALI_Smoothed:pCylinder35
+    2300448: DALI_Smoothed:pCylinder36
+    2300450: DALI_Smoothed:pCylinder9
+    2300452: DALI_Smoothed:pCylinder9 1
+    2300454: DALI_Smoothed:phone
+    2300456: DALI_Smoothed:pillar
+    2300458: DALI_Smoothed:polySurface4
+    2300460: DALI_Smoothed:polySurface6
+    2300462: DALI_Smoothed:pSphere10
+    2300464: DALI_Smoothed:pSphere11
+    2300466: DALI_Smoothed:pSphere7
+    2300468: DALI_Smoothed:pSphere9
+    2300470: DALI_Smoothed:pSphere9 1
+    2300472: DALI_Smoothed:pTorus1
+    2300474: DALI_Smoothed:pTorus2
+    2300476: DALI_Smoothed:redbox 1
+    2300478: DALI_Smoothed:redoipad
+    2300480: DALI_Smoothed:rubix
+    2300482: DALI_Smoothed:rubix1
+    2300484: DALI_Smoothed:shelf
+    2300486: DALI_Smoothed:shelf1
+    2300488: DALI_Smoothed:small_stereo
+    2300490: DALI_Smoothed:smallgreenipad
+    2300492: DALI_Smoothed:smallipod
+    2300494: DALI_Smoothed:speakerstand
+    2300496: DALI_Smoothed:speakerstand 1
+    2300498: DALI_Smoothed:speakerstand 2
+    2300500: DALI_Smoothed:speakerstand1
+    2300502: DALI_Smoothed:speakerstand1 1
+    2300504: DALI_Smoothed:speakerstand1 2
+    2300506: DALI_Smoothed:straightdivider
+    2300508: DALI_Smoothed:switch1
+    2300510: DALI_Smoothed:tall_stereo3
+    2300512: DALI_Smoothed:tall_stereo3 1
+    2300514: DALI_Smoothed:tall_stereo3 2
+    2300516: DALI_Smoothed:TV
+    2300518: DALI_Smoothed:tvbox
+    2300520: DALI_Smoothed:vent
+    2300522: DALI_Smoothed:walls
+    2300524: DALI_Smoothed:wavy_ceiling
+    2300526: DALI_Smoothed:wavy_ceiling1
+    2300528: DALI_Smoothed:wavyhinge
+    2300530: DALI_Smoothed:wavyhinge2
+    2300532: DALI_Smoothed:wavyhinge3
+    2300534: DALI_Smoothed:wavywall
+    2300536: DALI_Smoothed:wavywall1
+    2300538: DALI_Smoothed:wavywall2
+    2300540: DALI_Smoothed:wavywall3
+    2300542: DALI_Smoothed:wheelholdy
+    2300544: DALI_Smoothed:wheelholdy 1
+    2300546: DALI_Smoothed:whiteboard1
+    2300548: DALI_Smoothed:xbox_360
+    2300550: DALI_Smoothed:yogibo
+    3300000: DALI_Smoothed:apple_computer
+    3300002: DALI_Smoothed:backleg
+    3300004: DALI_Smoothed:backleg1
+    3300006: DALI_Smoothed:big_couch
+    3300008: DALI_Smoothed:big_couch1
+    3300010: DALI_Smoothed:big_couch2
+    3300012: DALI_Smoothed:big_stereo
+    3300014: DALI_Smoothed:body
+    3300016: DALI_Smoothed:book
+    3300018: DALI_Smoothed:book1
+    3300020: DALI_Smoothed:book10
+    3300022: DALI_Smoothed:book11
+    3300024: DALI_Smoothed:book12
+    3300026: DALI_Smoothed:book13
+    3300028: DALI_Smoothed:book14
+    3300030: DALI_Smoothed:book15
+    3300032: DALI_Smoothed:book15 1
+    3300034: DALI_Smoothed:book15 2
+    3300036: DALI_Smoothed:book15 3
+    3300038: DALI_Smoothed:book16
+    3300040: DALI_Smoothed:book16 1
+    3300042: DALI_Smoothed:book16 2
+    3300044: DALI_Smoothed:book16 3
+    3300046: DALI_Smoothed:book17
+    3300048: DALI_Smoothed:book17 1
+    3300050: DALI_Smoothed:book17 2
+    3300052: DALI_Smoothed:book17 3
+    3300054: DALI_Smoothed:book18
+    3300056: DALI_Smoothed:book18 1
+    3300058: DALI_Smoothed:book18 2
+    3300060: DALI_Smoothed:book18 3
+    3300062: DALI_Smoothed:book19
+    3300064: DALI_Smoothed:book19 1
+    3300066: DALI_Smoothed:book19 2
+    3300068: DALI_Smoothed:book19 3
+    3300070: DALI_Smoothed:book2
+    3300072: DALI_Smoothed:book21
+    3300074: DALI_Smoothed:book23
+    3300076: DALI_Smoothed:book24
+    3300078: DALI_Smoothed:book25
+    3300080: DALI_Smoothed:book26
+    3300082: DALI_Smoothed:book27
+    3300084: DALI_Smoothed:book28
+    3300086: DALI_Smoothed:book29
+    3300088: DALI_Smoothed:book3
+    3300090: DALI_Smoothed:book30
+    3300092: DALI_Smoothed:book31
+    3300094: DALI_Smoothed:book32
+    3300096: DALI_Smoothed:book32 1
+    3300098: DALI_Smoothed:book33
+    3300100: DALI_Smoothed:book34
+    3300102: DALI_Smoothed:book35
+    3300104: DALI_Smoothed:book36
+    3300106: DALI_Smoothed:book37
+    3300108: DALI_Smoothed:book38
+    3300110: DALI_Smoothed:book39
+    3300112: DALI_Smoothed:book4
+    3300114: DALI_Smoothed:book4 1
+    3300116: DALI_Smoothed:book4 2
+    3300118: DALI_Smoothed:book4 3
+    3300120: DALI_Smoothed:book40
+    3300122: DALI_Smoothed:book41
+    3300124: DALI_Smoothed:book42
+    3300126: DALI_Smoothed:book43
+    3300128: DALI_Smoothed:book44
+    3300130: DALI_Smoothed:book5
+    3300132: DALI_Smoothed:book5 1
+    3300134: DALI_Smoothed:book5 2
+    3300136: DALI_Smoothed:book6
+    3300138: DALI_Smoothed:book7
+    3300140: DALI_Smoothed:book7 1
+    3300142: DALI_Smoothed:book8
+    3300144: DALI_Smoothed:book9
+    3300146: DALI_Smoothed:ceiling1
+    3300148: DALI_Smoothed:circle_table 1
+    3300150: DALI_Smoothed:circle_table1
+    3300152: DALI_Smoothed:circular_switch
+    3300154: DALI_Smoothed:clothesthing
+    3300156: DALI_Smoothed:computertable
+    3300158: DALI_Smoothed:ctleg
+    3300160: DALI_Smoothed:ctleg 1
+    3300162: DALI_Smoothed:ctleg 2
+    3300164: DALI_Smoothed:cube_cabinet13
+    3300166: DALI_Smoothed:cube_cabinet15
+    3300168: DALI_Smoothed:cube_cabinet17
+    3300170: DALI_Smoothed:cube_cabinet18
+    3300172: DALI_Smoothed:cube_cabinet19
+    3300174: DALI_Smoothed:cube_cabinet20
+    3300176: DALI_Smoothed:cube_cabinet21
+    3300178: DALI_Smoothed:cube_cabinet22
+    3300180: DALI_Smoothed:cube_cabinet23
+    3300182: DALI_Smoothed:cube_cabinet24
+    3300184: DALI_Smoothed:cube_cabinet25
+    3300186: DALI_Smoothed:cube_cabinet26
+    3300188: DALI_Smoothed:cube_cabinet27
+    3300190: DALI_Smoothed:cube_cabinet28
+    3300192: DALI_Smoothed:cube_cabinet29
+    3300194: DALI_Smoothed:cylinder_wheel
+    3300196: DALI_Smoothed:cylinder_wheel 1
+    3300198: DALI_Smoothed:cylinder_wheel1
+    3300200: DALI_Smoothed:dali_mac_mini
+    3300202: DALI_Smoothed:door
+    3300204: DALI_Smoothed:doorhandlehandle
+    3300206: DALI_Smoothed:doorhandleplatform
+    3300208: DALI_Smoothed:facemouth
+    3300210: DALI_Smoothed:floor
+    3300212: DALI_Smoothed:frontleg
+    3300214: DALI_Smoothed:frontleg1
+    3300216: DALI_Smoothed:glassboard
+    3300218: DALI_Smoothed:go_lid
+    3300220: DALI_Smoothed:go_lid1
+    3300222: DALI_Smoothed:goboard
+    3300224: DALI_Smoothed:gopiece
+    3300226: DALI_Smoothed:gopiece1
+    3300228: DALI_Smoothed:gopiece2
+    3300230: DALI_Smoothed:gopiece3
+    3300232: DALI_Smoothed:gopiece4
+    3300234: DALI_Smoothed:gopiece5
+    3300236: DALI_Smoothed:high_table_computer_thing
+    3300238: DALI_Smoothed:hightable
+    3300240: DALI_Smoothed:hightableblackpart
+    3300242: DALI_Smoothed:hook
+    3300244: DALI_Smoothed:hook1
+    3300246: DALI_Smoothed:hook2
+    3300248: DALI_Smoothed:hook3
+    3300250: DALI_Smoothed:hook4
+    3300252: DALI_Smoothed:hook5
+    3300254: DALI_Smoothed:ipadholder
+    3300256: DALI_Smoothed:largeripod
+    3300258: DALI_Smoothed:leg1
+    3300260: DALI_Smoothed:leg2
+    3300262: DALI_Smoothed:leg3
+    3300264: DALI_Smoothed:light_switch
+    3300266: DALI_Smoothed:lostandfound
+    3300268: DALI_Smoothed:mirror
+    3300270: DALI_Smoothed:mirror1
+    3300272: DALI_Smoothed:mirror2
+    3300274: DALI_Smoothed:mouse 1
+    3300276: DALI_Smoothed:otherxbox
+    3300278: DALI_Smoothed:outside
+    3300280: DALI_Smoothed:pasted__wavy_ceiling
+    3300282: DALI_Smoothed:pasted__wavy_ceiling 1
+    3300284: DALI_Smoothed:pasted__weird_light12
+    3300286: DALI_Smoothed:pasted__weird_light13
+    3300288: DALI_Smoothed:pasted__weird_light14
+    3300290: DALI_Smoothed:pasted__weird_light15
+    3300292: DALI_Smoothed:pasted__weird_light16
+    3300294: DALI_Smoothed:pasted__weird_light17
+    3300296: DALI_Smoothed:pasted__weird_light18
+    3300298: DALI_Smoothed:pasted__weird_light19
+    3300300: DALI_Smoothed:pasted__weird_light20
+    3300302: DALI_Smoothed:pasted__weird_light21
+    3300304: DALI_Smoothed:pasted__weird_light22
+    3300306: DALI_Smoothed:pasted__weird_light23
+    3300308: DALI_Smoothed:pasted__weird_light24
+    3300310: DALI_Smoothed:pasted__weird_light25
+    3300312: DALI_Smoothed:pasted__weird_light26
+    3300314: DALI_Smoothed:pasted__weird_light27
+    3300316: DALI_Smoothed:pasted__weird_light28
+    3300318: DALI_Smoothed:pasted__weird_light29
+    3300320: DALI_Smoothed:pasted__weird_light30
+    3300322: DALI_Smoothed:pasted__weird_light31
+    3300324: DALI_Smoothed:pasted__weird_light32
+    3300326: DALI_Smoothed:pasted__weird_light33
+    3300328: DALI_Smoothed:pasted__weird_light34
+    3300330: DALI_Smoothed:pasted__weird_light35
+    3300332: DALI_Smoothed:pasted__weird_light36
+    3300334: DALI_Smoothed:pasted__weird_light37
+    3300336: DALI_Smoothed:pasted__weird_light38
+    3300338: DALI_Smoothed:pasted__weird_light39
+    3300340: DALI_Smoothed:pasted__weird_light40
+    3300342: DALI_Smoothed:pasted__weird_light41
+    3300344: DALI_Smoothed:pasted__weird_light42
+    3300346: DALI_Smoothed:pCube1
+    3300348: DALI_Smoothed:pCube10
+    3300350: DALI_Smoothed:pCube10 1
+    3300352: DALI_Smoothed:pCube11
+    3300354: DALI_Smoothed:pCube11 1
+    3300356: DALI_Smoothed:pCube13
+    3300358: DALI_Smoothed:pCube14
+    3300360: DALI_Smoothed:pCube17
+    3300362: DALI_Smoothed:pCube18
+    3300364: DALI_Smoothed:pCube19
+    3300366: DALI_Smoothed:pCube2
+    3300368: DALI_Smoothed:pCube20
+    3300370: DALI_Smoothed:pCube21
+    3300372: DALI_Smoothed:pCube22
+    3300374: DALI_Smoothed:pCube23
+    3300376: DALI_Smoothed:pCube24
+    3300378: DALI_Smoothed:pCube25
+    3300380: DALI_Smoothed:pCube4
+    3300382: DALI_Smoothed:pCube5
+    3300384: DALI_Smoothed:pCube7
+    3300386: DALI_Smoothed:pCube8
+    3300388: DALI_Smoothed:pCube8 1
+    3300390: DALI_Smoothed:pCube9
+    3300392: DALI_Smoothed:pCube9 1
+    3300394: DALI_Smoothed:pCylinder1
+    3300396: DALI_Smoothed:pCylinder11
+    3300398: DALI_Smoothed:pCylinder11 1
+    3300400: DALI_Smoothed:pCylinder12
+    3300402: DALI_Smoothed:pCylinder13
+    3300404: DALI_Smoothed:pCylinder14
+    3300406: DALI_Smoothed:pCylinder15
+    3300408: DALI_Smoothed:pCylinder16
+    3300410: DALI_Smoothed:pCylinder16 1
+    3300412: DALI_Smoothed:pCylinder17
+    3300414: DALI_Smoothed:pCylinder18
+    3300416: DALI_Smoothed:pCylinder2
+    3300418: DALI_Smoothed:pCylinder20
+    3300420: DALI_Smoothed:pCylinder21
+    3300422: DALI_Smoothed:pCylinder22
+    3300424: DALI_Smoothed:pCylinder23
+    3300426: DALI_Smoothed:pCylinder25
+    3300428: DALI_Smoothed:pCylinder26
+    3300430: DALI_Smoothed:pCylinder27
+    3300432: DALI_Smoothed:pCylinder28
+    3300434: DALI_Smoothed:pCylinder29
+    3300436: DALI_Smoothed:pCylinder30
+    3300438: DALI_Smoothed:pCylinder31
+    3300440: DALI_Smoothed:pCylinder32
+    3300442: DALI_Smoothed:pCylinder33
+    3300444: DALI_Smoothed:pCylinder34
+    3300446: DALI_Smoothed:pCylinder35
+    3300448: DALI_Smoothed:pCylinder36
+    3300450: DALI_Smoothed:pCylinder9
+    3300452: DALI_Smoothed:pCylinder9 1
+    3300454: DALI_Smoothed:phone
+    3300456: DALI_Smoothed:pillar
+    3300458: DALI_Smoothed:polySurface4
+    3300460: DALI_Smoothed:polySurface6
+    3300462: DALI_Smoothed:pSphere10
+    3300464: DALI_Smoothed:pSphere11
+    3300466: DALI_Smoothed:pSphere7
+    3300468: DALI_Smoothed:pSphere9
+    3300470: DALI_Smoothed:pSphere9 1
+    3300472: DALI_Smoothed:pTorus1
+    3300474: DALI_Smoothed:pTorus2
+    3300476: DALI_Smoothed:redbox 1
+    3300478: DALI_Smoothed:redoipad
+    3300480: DALI_Smoothed:rubix
+    3300482: DALI_Smoothed:rubix1
+    3300484: DALI_Smoothed:shelf
+    3300486: DALI_Smoothed:shelf1
+    3300488: DALI_Smoothed:small_stereo
+    3300490: DALI_Smoothed:smallgreenipad
+    3300492: DALI_Smoothed:smallipod
+    3300494: DALI_Smoothed:speakerstand
+    3300496: DALI_Smoothed:speakerstand 1
+    3300498: DALI_Smoothed:speakerstand 2
+    3300500: DALI_Smoothed:speakerstand1
+    3300502: DALI_Smoothed:speakerstand1 1
+    3300504: DALI_Smoothed:speakerstand1 2
+    3300506: DALI_Smoothed:straightdivider
+    3300508: DALI_Smoothed:switch1
+    3300510: DALI_Smoothed:tall_stereo3
+    3300512: DALI_Smoothed:tall_stereo3 1
+    3300514: DALI_Smoothed:tall_stereo3 2
+    3300516: DALI_Smoothed:TV
+    3300518: DALI_Smoothed:tvbox
+    3300520: DALI_Smoothed:vent
+    3300522: DALI_Smoothed:walls
+    3300524: DALI_Smoothed:wavy_ceiling
+    3300526: DALI_Smoothed:wavy_ceiling1
+    3300528: DALI_Smoothed:wavyhinge
+    3300530: DALI_Smoothed:wavyhinge2
+    3300532: DALI_Smoothed:wavyhinge3
+    3300534: DALI_Smoothed:wavywall
+    3300536: DALI_Smoothed:wavywall1
+    3300538: DALI_Smoothed:wavywall2
+    3300540: DALI_Smoothed:wavywall3
+    3300542: DALI_Smoothed:wheelholdy
+    3300544: DALI_Smoothed:wheelholdy 1
+    3300546: DALI_Smoothed:whiteboard1
+    3300548: DALI_Smoothed:xbox_360
+    3300550: DALI_Smoothed:yogibo
+    4300000: DALI_Smoothed:outside
+    4300002: DALI_Smoothed:rubix1
+    4300004: DALI_Smoothed:go_lid
+    4300006: DALI_Smoothed:pSphere10
+    4300008: DALI_Smoothed:pSphere11
+    4300010: DALI_Smoothed:go_lid1
+    4300012: DALI_Smoothed:pCube19
+    4300014: DALI_Smoothed:pCube18
+    4300016: DALI_Smoothed:pCube21
+    4300018: DALI_Smoothed:pCube20
+    4300020: DALI_Smoothed:pCube17
+    4300022: DALI_Smoothed:pCylinder14
+    4300024: DALI_Smoothed:pCylinder15
+    4300026: DALI_Smoothed:pCylinder13
+    4300028: DALI_Smoothed:largeripod
+    4300030: DALI_Smoothed:smallipod
+    4300032: DALI_Smoothed:pCylinder12
+    4300034: DALI_Smoothed:pCube13
+    4300036: DALI_Smoothed:gopiece
+    4300038: DALI_Smoothed:gopiece1
+    4300040: DALI_Smoothed:gopiece2
+    4300042: DALI_Smoothed:gopiece3
+    4300044: DALI_Smoothed:gopiece4
+    4300046: DALI_Smoothed:gopiece5
+    4300048: DALI_Smoothed:apple_computer
+    4300050: DALI_Smoothed:otherxbox
+    4300052: DALI_Smoothed:xbox_360
+    4300054: DALI_Smoothed:dali_mac_mini
+    4300056: DALI_Smoothed:phone
+    4300058: DALI_Smoothed:pTorus2
+    4300060: DALI_Smoothed:mouse
+    4300062: DALI_Smoothed:pSphere7
+    4300064: DALI_Smoothed:pCube7
+    4300066: DALI_Smoothed:pCube5
+    4300068: DALI_Smoothed:pTorus1
+    4300070: DALI_Smoothed:pCylinder1
+    4300072: DALI_Smoothed:pCylinder2
+    4300074: DALI_Smoothed:goboard
+    4300076: DALI_Smoothed:book11
+    4300078: DALI_Smoothed:book13
+    4300080: DALI_Smoothed:book12
+    4300082: DALI_Smoothed:book10
+    4300084: DALI_Smoothed:book9
+    4300086: DALI_Smoothed:book21
+    4300088: DALI_Smoothed:book23
+    4300090: DALI_Smoothed:book24
+    4300092: DALI_Smoothed:book25
+    4300094: DALI_Smoothed:book26
+    4300096: DALI_Smoothed:book27
+    4300098: DALI_Smoothed:book28
+    4300100: DALI_Smoothed:book29
+    4300102: DALI_Smoothed:book30
+    4300104: DALI_Smoothed:pCube2
+    4300106: DALI_Smoothed:book8
+    4300108: DALI_Smoothed:book5
+    4300110: DALI_Smoothed:book4
+    4300112: DALI_Smoothed:book6
+    4300114: DALI_Smoothed:book3
+    4300116: DALI_Smoothed:book2
+    4300118: DALI_Smoothed:book1
+    4300120: DALI_Smoothed:book
+    4300122: DALI_Smoothed:book7
+    4300124: DALI_Smoothed:book5
+    4300126: DALI_Smoothed:book4
+    4300128: DALI_Smoothed:book7
+    4300130: DALI_Smoothed:book14
+    4300132: DALI_Smoothed:book15
+    4300134: DALI_Smoothed:book16
+    4300136: DALI_Smoothed:book17
+    4300138: DALI_Smoothed:book18
+    4300140: DALI_Smoothed:book19
+    4300142: DALI_Smoothed:smallgreenipad
+    4300144: DALI_Smoothed:redoipad
+    4300146: DALI_Smoothed:ipadholder
+    4300148: DALI_Smoothed:book5
+    4300150: DALI_Smoothed:book4
+    4300152: DALI_Smoothed:book15
+    4300154: DALI_Smoothed:book16
+    4300156: DALI_Smoothed:book17
+    4300158: DALI_Smoothed:book18
+    4300160: DALI_Smoothed:book19
+    4300162: DALI_Smoothed:book4
+    4300164: DALI_Smoothed:book15
+    4300166: DALI_Smoothed:book16
+    4300168: DALI_Smoothed:book17
+    4300170: DALI_Smoothed:book18
+    4300172: DALI_Smoothed:book19
+    4300174: DALI_Smoothed:book31
+    4300176: DALI_Smoothed:book32
+    4300178: DALI_Smoothed:book33
+    4300180: DALI_Smoothed:book34
+    4300182: DALI_Smoothed:book35
+    4300184: DALI_Smoothed:book15
+    4300186: DALI_Smoothed:book16
+    4300188: DALI_Smoothed:book17
+    4300190: DALI_Smoothed:book18
+    4300192: DALI_Smoothed:book19
+    4300194: DALI_Smoothed:book32
+    4300196: DALI_Smoothed:book36
+    4300198: DALI_Smoothed:book37
+    4300200: DALI_Smoothed:book38
+    4300202: DALI_Smoothed:book39
+    4300204: DALI_Smoothed:book40
+    4300206: DALI_Smoothed:book41
+    4300208: DALI_Smoothed:book42
+    4300210: DALI_Smoothed:book43
+    4300212: DALI_Smoothed:book44
+    4300214: DALI_Smoothed:tall_stereo3
+    4300216: DALI_Smoothed:speakerstand1
+    4300218: DALI_Smoothed:speakerstand
+    4300220: DALI_Smoothed:body
+    4300222: DALI_Smoothed:facemouth
+    4300224: DALI_Smoothed:frontleg
+    4300226: DALI_Smoothed:backleg
+    4300228: DALI_Smoothed:frontleg1
+    4300230: DALI_Smoothed:backleg1
+    4300232: DALI_Smoothed:tall_stereo3
+    4300234: DALI_Smoothed:speakerstand1
+    4300236: DALI_Smoothed:speakerstand
+    4300238: DALI_Smoothed:tall_stereo3
+    4300240: DALI_Smoothed:speakerstand1
+    4300242: DALI_Smoothed:speakerstand
+    4300244: DALI_Smoothed:rubix
+    4300246: DALI_Smoothed:TV
+    4300248: DALI_Smoothed:tvbox
+    4300250: DALI_Smoothed:big_stereo
+    4300252: DALI_Smoothed:small_stereo
+    4300254: DALI_Smoothed:pasted__weird_light12
+    4300256: DALI_Smoothed:pasted__weird_light13
+    4300258: DALI_Smoothed:pasted__weird_light14
+    4300260: DALI_Smoothed:pasted__weird_light15
+    4300262: DALI_Smoothed:pasted__weird_light16
+    4300264: DALI_Smoothed:pasted__weird_light17
+    4300266: DALI_Smoothed:pasted__weird_light18
+    4300268: DALI_Smoothed:pasted__weird_light19
+    4300270: DALI_Smoothed:pasted__weird_light20
+    4300272: DALI_Smoothed:pasted__weird_light21
+    4300274: DALI_Smoothed:pasted__weird_light22
+    4300276: DALI_Smoothed:pasted__weird_light23
+    4300278: DALI_Smoothed:pasted__weird_light30
+    4300280: DALI_Smoothed:pasted__weird_light33
+    4300282: DALI_Smoothed:pasted__weird_light35
+    4300284: DALI_Smoothed:pasted__weird_light37
+    4300286: DALI_Smoothed:pasted__weird_light39
+    4300288: DALI_Smoothed:pasted__weird_light40
+    4300290: DALI_Smoothed:pasted__weird_light42
+    4300292: DALI_Smoothed:pasted__weird_light31
+    4300294: DALI_Smoothed:pasted__weird_light32
+    4300296: DALI_Smoothed:pasted__weird_light34
+    4300298: DALI_Smoothed:pasted__weird_light36
+    4300300: DALI_Smoothed:pasted__weird_light38
+    4300302: DALI_Smoothed:pasted__weird_light41
+    4300304: DALI_Smoothed:pasted__weird_light25
+    4300306: DALI_Smoothed:pasted__weird_light28
+    4300308: DALI_Smoothed:pasted__weird_light24
+    4300310: DALI_Smoothed:pasted__weird_light26
+    4300312: DALI_Smoothed:pasted__weird_light27
+    4300314: DALI_Smoothed:pasted__weird_light29
+    4300316: DALI_Smoothed:yogibo
+    4300318: DALI_Smoothed:floor
+    4300320: DALI_Smoothed:ceiling1
+    4300322: DALI_Smoothed:walls
+    4300324: DALI_Smoothed:door
+    4300326: DALI_Smoothed:vent
+    4300328: DALI_Smoothed:straightdivider
+    4300330: DALI_Smoothed:wavy_ceiling
+    4300332: DALI_Smoothed:clothesthing
+    4300334: DALI_Smoothed:hook
+    4300336: DALI_Smoothed:hook1
+    4300338: DALI_Smoothed:hook2
+    4300340: DALI_Smoothed:hook3
+    4300342: DALI_Smoothed:hook4
+    4300344: DALI_Smoothed:hook5
+    4300346: DALI_Smoothed:light_switch
+    4300348: DALI_Smoothed:circular_switch
+    4300350: DALI_Smoothed:switch1
+    4300352: DALI_Smoothed:pillar
+    4300354: DALI_Smoothed:pCube25
+    4300356: DALI_Smoothed:glassboard
+    4300358: DALI_Smoothed:pCylinder17
+    4300360: DALI_Smoothed:pCylinder18
+    4300362: DALI_Smoothed:pCylinder20
+    4300364: DALI_Smoothed:pCylinder21
+    4300366: DALI_Smoothed:pCylinder23
+    4300368: DALI_Smoothed:pCylinder22
+    4300370: DALI_Smoothed:big_couch
+    4300372: DALI_Smoothed:pCylinder25
+    4300374: DALI_Smoothed:pCylinder26
+    4300376: DALI_Smoothed:pCylinder27
+    4300378: DALI_Smoothed:pCylinder28
+    4300380: DALI_Smoothed:big_couch1
+    4300382: DALI_Smoothed:big_couch2
+    4300384: DALI_Smoothed:pCylinder29
+    4300386: DALI_Smoothed:pCylinder30
+    4300388: DALI_Smoothed:pCylinder31
+    4300390: DALI_Smoothed:pCylinder32
+    4300392: DALI_Smoothed:pCylinder33
+    4300394: DALI_Smoothed:pCylinder34
+    4300396: DALI_Smoothed:pCylinder35
+    4300398: DALI_Smoothed:pCylinder36
+    4300400: DALI_Smoothed:hightableblackpart
+    4300402: DALI_Smoothed:hightable
+    4300404: DALI_Smoothed:pCube22
+    4300406: DALI_Smoothed:pCube23
+    4300408: DALI_Smoothed:pCube24
+    4300410: DALI_Smoothed:ctleg
+    4300412: DALI_Smoothed:cylinder_wheel
+    4300414: DALI_Smoothed:ctleg
+    4300416: DALI_Smoothed:cylinder_wheel1
+    4300418: DALI_Smoothed:cylinder_wheel
+    4300420: DALI_Smoothed:ctleg
+    4300422: DALI_Smoothed:wavywall3
+    4300424: DALI_Smoothed:wavywall2
+    4300426: DALI_Smoothed:wavywall1
+    4300428: DALI_Smoothed:pCylinder11
+    4300430: DALI_Smoothed:pSphere9
+    4300432: DALI_Smoothed:pCube9
+    4300434: DALI_Smoothed:pCube8
+    4300436: DALI_Smoothed:pCylinder11
+    4300438: DALI_Smoothed:pSphere9
+    4300440: DALI_Smoothed:pCube9
+    4300442: DALI_Smoothed:pCube8
+    4300444: DALI_Smoothed:pCube14
+    4300446: DALI_Smoothed:redbox
+    4300448: DALI_Smoothed:shelf1
+    4300450: DALI_Smoothed:cube_cabinet24
+    4300452: DALI_Smoothed:cube_cabinet25
+    4300454: DALI_Smoothed:cube_cabinet26
+    4300456: DALI_Smoothed:cube_cabinet27
+    4300458: DALI_Smoothed:cube_cabinet28
+    4300460: DALI_Smoothed:cube_cabinet29
+    4300462: DALI_Smoothed:wavywall
+    4300464: DALI_Smoothed:wavyhinge3
+    4300466: DALI_Smoothed:wavyhinge2
+    4300468: DALI_Smoothed:wavyhinge
+    4300470: DALI_Smoothed:polySurface6
+    4300472: DALI_Smoothed:polySurface4
+    4300474: DALI_Smoothed:shelf
+    4300476: DALI_Smoothed:high_table_computer_thing
+    4300478: DALI_Smoothed:leg3
+    4300480: DALI_Smoothed:leg2
+    4300482: DALI_Smoothed:leg1
+    4300484: DALI_Smoothed:computertable
+    4300486: DALI_Smoothed:lostandfound
+    4300488: DALI_Smoothed:mirror
+    4300490: DALI_Smoothed:mirror1
+    4300492: DALI_Smoothed:mirror2
+    4300494: DALI_Smoothed:cube_cabinet13
+    4300496: DALI_Smoothed:cube_cabinet15
+    4300498: DALI_Smoothed:cube_cabinet17
+    4300500: DALI_Smoothed:cube_cabinet18
+    4300502: DALI_Smoothed:cube_cabinet19
+    4300504: DALI_Smoothed:cube_cabinet20
+    4300506: DALI_Smoothed:cube_cabinet21
+    4300508: DALI_Smoothed:cube_cabinet22
+    4300510: DALI_Smoothed:cube_cabinet23
+    4300512: DALI_Smoothed:wheelholdy
+    4300514: DALI_Smoothed:pCylinder9
+    4300516: DALI_Smoothed:pCube10
+    4300518: DALI_Smoothed:pCube11
+    4300520: DALI_Smoothed:pCylinder16
+    4300522: DALI_Smoothed:wheelholdy
+    4300524: DALI_Smoothed:pCylinder9
+    4300526: DALI_Smoothed:pCube10
+    4300528: DALI_Smoothed:pCube11
+    4300530: DALI_Smoothed:pCylinder16
+    4300532: DALI_Smoothed:whiteboard1
+    4300534: DALI_Smoothed:circle_table
+    4300536: DALI_Smoothed:circle_table1
+    4300538: DALI_Smoothed:pCube4
+    4300540: DALI_Smoothed:doorhandlehandle
+    4300542: DALI_Smoothed:doorhandleplatform
+    4300544: DALI_Smoothed:pCube1
+    4300546: DALI_Smoothed:wavy_ceiling1
+    4300548: DALI_Smoothed:pasted__wavy_ceiling
+    4300550: DALI_Smoothed:pasted__wavy_ceiling
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: DALI_Smoothed:daliYellow
+    10800002: DALI_Smoothed:Lights:cooridor_light
+    10800004: DALI_Smoothed:Lights:cooridor_light_2
+    10800006: DALI_Smoothed:Lights:daliblue1
+    10800008: DALI_Smoothed:Lights:daligreen
+    10800010: DALI_Smoothed:Lights:daliorange1
+    10800012: DALI_Smoothed:Lights:sky
+    10800014: DALI_Smoothed:Lights:sky1
+    10800016: DALI_Smoothed:Lights:sky2
+    10800018: DALI_Smoothed:Lights:sky3
+    10800020: DALI_Smoothed:Lights:spotLight1
+    10800022: DALI_Smoothed:Lights:spotLight2
+    10800024: DALI_Smoothed:Lights:spotLight3
+    10800026: DALI_Smoothed:Lights:spotLight5
+    10800028: DALI_Smoothed:Lights:spotLight6
+    10800030: DALI_Smoothed:Lights:spotLight7
+    10800032: DALI_Smoothed:Lights:sunlight
+    10800034: DALI_Smoothed:Lights:sunlight1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
