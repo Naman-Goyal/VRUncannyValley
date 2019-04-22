@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f07ca02945ad64ba4a55c0f59b2bba1f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - avatar1: {fileID: 100000, guid: e2e933290c463470aa3ca837e683e3c6, type: 3}
+  - avatar2: {fileID: 100012, guid: b6e76bcb083ff754cb5fc86cea09453c, type: 3}
+  - avatar3: {fileID: 100132, guid: cb9ffdeaec0fd483eb5e578379c60227, type: 3}
+  - avatar4: {fileID: 100142, guid: 0c4b8e8fc2f4149f29146a6f62a8cf3a, type: 3}
+  - avatar5: {fileID: 100138, guid: fbd385e066ca0435a8389d05d9a68342, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
