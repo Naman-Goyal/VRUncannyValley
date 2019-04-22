@@ -4,47 +4,42 @@ using UnityEngine;
 
 
 public class SwitchCharacterScript : MonoBehaviour {
+	public List<GameObject> avatarArray;
+    public uint user_ID;
 
-	public GameObject avatar1, avatar2, avatar3, avatar4, avatar5;
-	// public GameObject[] avatarArray;
+    int currAvatar = 0;
 
-	int whichAvatarIsOn = 1;
-
-	void Start () {
-		GameObject[] avatarArray = { avatar1, avatar2, avatar3, avatar4, avatar5 };
-
-		int number = Random.Range(1, 6);
-		avatar1.gameObject.SetActive (false);
-		avatar2.gameObject.SetActive (false);
-		avatar3.gameObject.SetActive (false);
-		avatar4.gameObject.SetActive (false);
-		avatar5.gameObject.SetActive (false);
-		avatarArray[number].SetActive (true);
-	}
-
-	public void SwitchAvatar(int n)
-	{
-			GameObject[] avatarArray = { avatar1, avatar2, avatar3, avatar4, avatar5 };
-			avatar1.gameObject.SetActive (false);
-			avatar2.gameObject.SetActive (false);
-			avatar3.gameObject.SetActive (false);
-			avatar4.gameObject.SetActive (false);
-			avatar5.gameObject.SetActive (false);
-			avatarArray[n].SetActive (true);
-	}
-
-
-    void Update()
+    private void Awake()
     {
-        if (Input.GetKeyDown("space"))	//get some message
-
-
-
-        {
-			int number = Random.Range(1, 6);
-            SwitchAvatar(number);
-            Debug.Log(number);
+        foreach (var i in avatarArray) {
+            i.SetActive(false);
         }
     }
 
+    private void Start()
+    {
+        NextAvatar();
+    }
+
+    int GetNewAvatar()
+    {
+        avatarArray.RemoveAt(currAvatar);
+        return Random.Range(0, avatarArray.Count);
+    }
+
+    void EnableChosen()
+    {
+        foreach (var i in avatarArray)
+        {
+            i.SetActive(false);
+        }
+        avatarArray[currAvatar].SetActive(true);
+    }
+
+    // Meant to be called from an individual model
+    public void NextAvatar()
+    {
+        currAvatar = GetNewAvatar();
+        EnableChosen();
+    }
 }

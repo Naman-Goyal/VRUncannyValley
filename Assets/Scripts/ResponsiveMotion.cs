@@ -29,8 +29,8 @@ public class ResponsiveMotion : MonoBehaviour
     float timeLookingAtModel = 0f;
     
     // What phase we're in
-    enum Phase { Start, WalkingTo, InFront, ToCorner, End, None };
-    Phase currPhase = Phase.Start;
+    public enum Phase { Start, WalkingTo, InFront, ToCorner, End, None };
+    public Phase currPhase = Phase.Start;
 
     // For in front
     public float inFrontTime = 20f;
@@ -144,7 +144,7 @@ public class ResponsiveMotion : MonoBehaviour
 
     private void EndUpdate()
     {
-        //Send something to the upper  level
+        gameObject.transform.parent.gameObject.GetComponent<SwitchCharacterScript>().NextAvatar();
     }
 
     private GazePosition GetGaze()
@@ -166,7 +166,7 @@ public class ResponsiveMotion : MonoBehaviour
 
     private void OnAnimatorMove()
     {
-        gameObject.transform.position = currPos;
+        gameObject.transform.parent.position = currPos;
     }
 
     // If lookingActive is true, will look at the player
