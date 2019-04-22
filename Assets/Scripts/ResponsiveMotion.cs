@@ -30,6 +30,7 @@ public class ResponsiveMotion : MonoBehaviour
     
     // What phase we're in
     public enum Phase { Start, WalkingTo, InFront, ToCorner, End, None };
+    [System.NonSerialized]
     public Phase currPhase = Phase.Start;
 
     // For in front
