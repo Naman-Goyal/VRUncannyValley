@@ -85,7 +85,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 1107566f58f07e14c86940454e64845a, type: 3}
     m_Threshold: 0.15
-    m_Position: {x: 0, y: 0}
+    m_Position: {x: 0.00002732696, y: -0.0000015763799}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: SittingBackOrFront
@@ -93,7 +93,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 37db38b0503e9be4c81541fb1f55b87d, type: 3}
     m_Threshold: 0.3
-    m_Position: {x: 0, y: 1}
+    m_Position: {x: -0.021226298, y: 0.99423045}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: SittingBackOrFront
@@ -101,7 +101,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: 206995551891981532}
     m_Threshold: 0.45000002
-    m_Position: {x: -1, y: 0}
+    m_Position: {x: -0.5820202, y: 0.09625722}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: SitStyle
@@ -109,7 +109,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: 206777212548898792}
     m_Threshold: 0.6
-    m_Position: {x: 1, y: 0}
+    m_Position: {x: 0.5820202, y: 0.09625722}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: SitStyle
@@ -118,7 +118,7 @@ BlendTree:
   m_BlendParameterY: Speed
   m_MinThreshold: 0.15
   m_MaxThreshold: 0.6
-  m_UseAutomaticThresholds: 1
+  m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 2
 --- !u!206 &206777212548898792
@@ -512,11 +512,11 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102900445883177722}
-    m_Position: {x: 144, y: -120, z: 0}
+    m_Position: {x: -84, y: -108, z: 0}
   m_ChildStateMachines:
   - serializedVersion: 1
     m_StateMachine: {fileID: 1107383991823536228}
-    m_Position: {x: 300, y: 12, z: 0}
+    m_Position: {x: 252, y: -108, z: 0}
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions:
