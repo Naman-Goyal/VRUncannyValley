@@ -18,21 +18,30 @@ public class GetDataScript : MonoBehaviour {
 	void OnEnable () {
         //get ID from above
         // open the file
+        output = new List<string[]>();
+
         id = gameObject.transform.parent.gameObject.GetComponent<SwitchCharacterScript>().user_ID;
         output.Add(GetFirstRow());
 	}
 
-	void Update () {
+    private void Update()
+    {
+        StartCoroutine(getData());
+    }
+
+    IEnumerator getData()
+    {
+        yield return new WaitForEndOfFrame();
         string[] row = new string[6];
         row[0] = id.ToString();
         row[1] = fove.GetPupilDilation().ToString();
         row[2] = GetBrightness();
         row[3] = (System.DateTime.UtcNow - new System.DateTime(1970, 1, 1)).ToString();
-        row[4] = ((int) fove.CheckEyesClosed()).ToString();
-        row[5] = gameObject.GetComponent<ResponsiveMotion>().currPhase.ToString();
+        row[4] = ((int)fove.CheckEyesClosed()).ToString();
+        row[5] = gameObject.GetComponent<NavMeshMove>().currPhase.ToString();
 
         output.Add(row);
-	}
+    }
 
     private void OnDisable()
     {
