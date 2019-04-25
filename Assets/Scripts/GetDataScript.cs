@@ -51,8 +51,10 @@ public class GetDataScript : MonoBehaviour {
             sb.AppendLine(string.Join(",", output[i]));
         }
 
-        var folder = Path.Combine(Application.persistentDataPath, id.ToString() + "_" + model_name + ".csv");
-        StreamWriter outStream = File.CreateText(folder);
+        //var file = Path.Combine(Application.persistentDataPath, id.ToString() + "_" + model_name + ".csv");
+        var file = "Assets/SaveData/" + id.ToString() + "_" + model_name + ".csv";
+        Debug.Log(file.ToString());
+        StreamWriter outStream = File.CreateText(file);
         outStream.WriteLine(sb);
         outStream.Close();
     }

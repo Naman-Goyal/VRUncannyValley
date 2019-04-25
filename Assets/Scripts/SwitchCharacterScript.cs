@@ -7,7 +7,7 @@ public class SwitchCharacterScript : MonoBehaviour {
 	public List<GameObject> avatarArray;
     public uint user_ID;
 
-    int currAvatar = 0;
+    int currAvatar = -1;
 
     private void Awake()
     {
@@ -18,12 +18,15 @@ public class SwitchCharacterScript : MonoBehaviour {
 
     private void Start()
     {
-        NextAvatar();
+        currAvatar = Random.Range(0, avatarArray.Count);
+        EnableChosen();
     }
 
     int GetNewAvatar()
     {
         avatarArray.RemoveAt(currAvatar);
+        if (avatarArray.Count == 0)
+            return -1;
         return Random.Range(0, avatarArray.Count);
     }
 
@@ -33,6 +36,10 @@ public class SwitchCharacterScript : MonoBehaviour {
         {
             i.SetActive(false);
         }
+        if (currAvatar == -1)
+        {
+            return;
+        }
         avatarArray[currAvatar].SetActive(true);
     }
 
@@ -41,5 +48,9 @@ public class SwitchCharacterScript : MonoBehaviour {
     {
         currAvatar = GetNewAvatar();
         EnableChosen();
+
+        transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+        var agent = gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
+        agent.Warp(new Vector3(24.28f, 0.26f, 26.02f));
     }
 }

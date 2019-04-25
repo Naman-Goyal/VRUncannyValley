@@ -8,12 +8,11 @@ public class NavMeshMove : MonoBehaviour
 
     Animator animator;
 
-    private readonly int getUpHash = Animator.StringToHash("GetUp");
-    private readonly int sitDownHash = Animator.StringToHash("SitDown");
-    private readonly int sitStyleHash = Animator.StringToHash("SitStyle");
-    private readonly int speedHash = Animator.StringToHash("Speed");
-    private readonly int lrHash = Animator.StringToHash("LeftRight");
-    private readonly int turnMoveHash = Animator.StringToHash("TurnOrMove");
+    private readonly int sitUpHash = Animator.StringToHash("SitUp");// trigger
+    private readonly int getUpHash = Animator.StringToHash("GetUp");// trigger
+    private readonly int vXHash = Animator.StringToHash("v_x");     // x dir of move
+    private readonly int vYHash = Animator.StringToHash("v_y");     // y dir of move
+    private readonly int moveHash = Animator.StringToHash("Move");  // boolean
 
     bool lookingActive = false;
     float timeOfLookingChange = 0f;
@@ -26,42 +25,50 @@ public class NavMeshMove : MonoBehaviour
     float timeLookingAtModel = 0f;
 
     // What phase we're in
-    public enum Phase { Start, WalkingTo, InFront, ToCorner, End, None };
+    public enum Phase { Start, WalkingTo, InFront, End, None };
     [System.NonSerialized]
     public Phase currPhase = Phase.Start;
 
     // For in front
     public float inFrontTime = 20f;
 
-    public float locationBuffer = 1f;
-
     // Where the player is looking
     enum GazePosition { Left, Centre, Right, None };
 
     public FoveInterface2 fove;
-
-    public Transform CharStartLoc;
     public Transform CharFrontLoc;
-    public Transform CharCornerLoc;
     public Transform CharEndLoc;
 
     private NavMeshAgent nma;
-
-
-    Vector3 currPos;
 
     // Start - finds animator
     void Start()
     {
         animator = gameObject.GetComponent<Animator>();
-        animator.SetLookAtPosition(playerLoc.position);
 
-        currPos = gameObject.transform.position;
         nma = gameObject.transform.parent.GetComponent<NavMeshAgent>();
+        nma.updatePosition = false;
+        nma.destination = transform.position;
     }
 
     private void Update()
     {
+        Vector3 worldDeltaPosition = nma.nextPosition - transform.parent.position;
+
+        // Map 'worldDeltaPosition' to local space
+        float dx = Vector3.Dot(transform.right, worldDeltaPosition);
+        float dy = Vector3.Dot(transform.forward, worldDeltaPosition);
+        Vector2 velocity = new Vector2(dx, dy) / Time.deltaTime;
+        if (velocity.SqrMagnitude() > 1f)
+        {
+            velocity.Normalize();
+        }
+
+        bool shouldMove = nma.remainingDistance > nma.radius;
+
+        animator.SetFloat(vXHash, velocity.x);
+        animator.SetFloat(vYHash, velocity.y);
+        animator.SetBool(moveHash, shouldMove);
         switch (currPhase)
         {
             case Phase.Start:
@@ -72,9 +79,6 @@ public class NavMeshMove : MonoBehaviour
                 break;
             case Phase.InFront:
                 InFrontUpdate();
-                break;
-            case Phase.ToCorner:
-                ToCornerUpdate();
                 break;
             case Phase.End:
                 EndUpdate();
@@ -95,17 +99,12 @@ public class NavMeshMove : MonoBehaviour
         if (gaze == GazePosition.Centre || gaze == GazePosition.Right)
             timeLookingAtModel += timeSinceLast;
 
-        if (timeLookingAtModel >= .6f)
+        if (timeLookingAtModel >= 1f)
         {
-            lookingActive = true;
-            timeOfLookingChange = Time.time;
-            justChangedLooking = true;
-
+            StartCoroutine(ChangeLooking(0f, true));
             StartCoroutine(SitUp(2f));
 
-            Invoke("AnimGetUp", 4f);
-            nma.destination = CharFrontLoc.position;
-            currPhase = Phase.WalkingTo;
+            timeLookingAtModel = float.MinValue;            //make sure it doesn't happen again
         }
 
         timeSinceLast = 0f;
@@ -113,52 +112,39 @@ public class NavMeshMove : MonoBehaviour
 
     private void WalkingToUpdate()
     {
-        //see if close enough
-        if (Vector3.Distance(gameObject.transform.position, CharFrontLoc.position) < locationBuffer)
-        {
+        if (nma.remainingDistance < nma.radius)
             currPhase = Phase.InFront;
-        }
     }
 
     private void InFrontUpdate()
     {
+        nma.destination = transform.position;
         inFrontTime -= Time.deltaTime;
 
         RaycastHit hit;
-        if (Physics.Raycast(fove.GetGazeRays().left, out hit, 1000f, 1 << 8))  
+        if (Physics.Raycast(fove.GetGazeRays().left, out hit, 1000f, 1 << 10))  
         {
-            if (CharFrontLoc.position.z - hit.point.z > 3f)
+            if (transform.position.z - hit.point.z > 1f)
             {
-                nma.destination = new Vector3(CharFrontLoc.position.x, CharFrontLoc.position.y, hit.point.z);
+                nma.destination = new Vector3(transform.position.x, transform.position.y, hit.point.z);
             }
         }
 
         if (inFrontTime <= 0)
         {
-            currPhase = Phase.ToCorner;
-            nma.destination = CharCornerLoc.position;
-        }
-    }
-
-    private void ToCornerUpdate()
-    {
-        //see if close enough
-        if (Vector3.Distance(gameObject.transform.position, CharCornerLoc.position) < locationBuffer)
-        {
             currPhase = Phase.End;
             nma.destination = CharEndLoc.position;
-            lookingActive = false;
-            timeOfLookingChange = Time.time;
-            justChangedLooking = true;
+            StartCoroutine(ChangeLooking(2f, false));
         }
     }
 
     private void EndUpdate()
     {
-        if (Vector3.Distance(gameObject.transform.position, CharCornerLoc.position) < locationBuffer)
+        if (nma.remainingDistance < nma.radius)
         {
             gameObject.transform.parent.gameObject.GetComponent<SwitchCharacterScript>().NextAvatar();
             currPhase = Phase.None;
+            gameObject.SetActive(false);
         }
     }
 
@@ -182,6 +168,7 @@ public class NavMeshMove : MonoBehaviour
     // If lookingActive is true, will look at the player
     public void OnAnimatorIK(int layerIndex)
     {
+        animator.SetLookAtPosition(playerLoc.position);
         if (justChangedLooking)
         {
             float changeInTime = Time.time - timeOfLookingChange;
@@ -223,18 +210,27 @@ public class NavMeshMove : MonoBehaviour
         }
     }
 
+    void OnAnimatorMove()
+    {
+        transform.parent.position = nma.nextPosition;
+    }
+
     private IEnumerator SitUp(float startTime)
     {
         yield return new WaitForSeconds(startTime);
-        for (float f = 0f; f >= 1; f += .3f * Time.deltaTime)
-        {
-            animator.SetFloat(sitStyleHash, f);
-            yield return null;
-        }
+        animator.SetTrigger(sitUpHash);
+        yield return new WaitForSeconds(2f);
+        animator.SetTrigger(getUpHash);
+        yield return new WaitForSeconds(2.25f);
+        nma.destination = CharFrontLoc.position;
+        currPhase = Phase.WalkingTo;
     }
 
-    void AnimGetUp()
+    private IEnumerator ChangeLooking(float startTime, bool looking)
     {
-        animator.SetTrigger(getUpHash);
+        yield return new WaitForSeconds(startTime);
+        lookingActive = looking;
+        timeOfLookingChange = Time.time;
+        justChangedLooking = true;
     }
 }
