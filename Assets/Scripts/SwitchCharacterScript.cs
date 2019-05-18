@@ -5,7 +5,10 @@ using UnityEngine;
 
 public class SwitchCharacterScript : MonoBehaviour {
 	public List<GameObject> avatarArray;
+    [System.NonSerialized]
     public uint user_ID;
+
+    public TestIDSaver testIDsaver;
 
     int currAvatar = -1;
 
@@ -18,8 +21,16 @@ public class SwitchCharacterScript : MonoBehaviour {
 
     private void Start()
     {
-        currAvatar = Random.Range(0, avatarArray.Count);
+
+        user_ID = testIDsaver.testID;
+        currAvatar = -1;
         EnableChosen();
+        StartCoroutine(WaitForEnter());
+    }
+
+    private void OnDestroy()
+    {
+        testIDsaver.testID = testIDsaver.testID + 1;
     }
 
     int GetNewAvatar()
@@ -51,6 +62,22 @@ public class SwitchCharacterScript : MonoBehaviour {
 
         transform.rotation = Quaternion.Euler(0f, 180f, 0f);
         var agent = gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
-        agent.Warp(new Vector3(24.28f, 0.26f, 26.02f));
+        agent.Warp(new Vector3(10.696f, 8.5349f, 13.778f));
+    }
+
+    IEnumerator WaitForEnter()
+    {
+        while (true)
+        {
+            yield return null;
+            if (Input.GetKeyDown("space"))
+            {
+                currAvatar = Random.Range(0, avatarArray.Count);
+                EnableChosen();
+                yield return true;
+                break;
+            }
+
+        }
     }
 }

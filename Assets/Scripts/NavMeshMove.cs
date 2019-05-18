@@ -31,6 +31,7 @@ public class NavMeshMove : MonoBehaviour
 
     // For in front
     public float inFrontTime = 20f;
+    bool walkingBack = false;
 
     // Where the player is looking
     enum GazePosition { Left, Centre, Right, None };
@@ -124,7 +125,7 @@ public class NavMeshMove : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(fove.GetGazeRays().left, out hit, 1000f, 1 << 10))  
         {
-            if (transform.position.z - hit.point.z > 1f)
+            if (Mathf.Abs(transform.position.z - hit.point.z) > .5f)
             {
                 nma.destination = new Vector3(transform.position.x, transform.position.y, hit.point.z);
             }

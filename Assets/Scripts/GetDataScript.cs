@@ -32,13 +32,14 @@ public class GetDataScript : MonoBehaviour {
     IEnumerator getData()
     {
         yield return new WaitForEndOfFrame();
-        string[] row = new string[6];
+        string[] row = new string[7];
         row[0] = id.ToString();
         row[1] = fove.GetPupilDilation().ToString();
         row[2] = GetBrightness();
         row[3] = (System.DateTime.UtcNow - new System.DateTime(1970, 1, 1)).ToString();
         row[4] = ((int)fove.CheckEyesClosed()).ToString();
         row[5] = gameObject.GetComponent<NavMeshMove>().currPhase.ToString();
+        row[6] = model_name;
 
         output.Add(row);
     }
@@ -62,13 +63,14 @@ public class GetDataScript : MonoBehaviour {
     string[] GetFirstRow()
     {
         //TestID, pupil dilation, brightness, time, blinks
-        string[] row = new string[6];
+        string[] row = new string[7];
         row[0] = "Test ID";
         row[1] = "Pupil dilation";
         row[2] = "Brightness";
         row[3] = "Time epoch";
         row[4] = "Eyes closed";
         row[5] = "Phase";
+        row[6] = "Model name";
 
         return row;
     }
